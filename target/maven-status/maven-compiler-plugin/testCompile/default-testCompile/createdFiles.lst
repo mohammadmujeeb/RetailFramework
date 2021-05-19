@@ -1,0 +1,4 @@
+stepDefinitions/LaptopsAndNotebooksTest.class
+stepDefinitions/RetailPageTest.class
+stepDefinitions/DesktopsTest.class
+testRunner/TestRunner.class

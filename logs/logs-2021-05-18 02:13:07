@@ -1,0 +1,122 @@
+2021/05/17 06:24:32 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/17 06:24:32 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/17 06:24:33 [main] INFO  DesktopsPageObjects - Success message was displayed.
+2021/05/17 06:24:39 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/17 06:24:39 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/17 06:24:39 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/17 06:24:41 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/17 06:24:41 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/17 06:24:46 [main] INFO  DesktopsPageObjects - Red color was selected.
+2021/05/17 06:24:47 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/17 06:24:47 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/17 06:24:48 [main] INFO  DesktopsPageObjects - Success message was displayed.
+2021/05/17 06:24:53 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/17 06:24:53 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/17 06:24:53 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/17 06:24:55 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/17 06:24:58 [main] INFO  DesktopsPageObjects - Canon EOS 5D was selected.
+2021/05/17 06:25:14 [main] INFO  DesktopsPageObjects - Clicked on 'Write a Review' link.
+2021/05/17 06:25:14 [main] INFO  DesktopsPageObjects - Entered reviewer name in 'Your Name' field.
+2021/05/17 06:25:14 [main] INFO  DesktopsPageObjects - Entered review text in 'Your Review' field.
+2021/05/17 06:25:14 [main] INFO  DesktopsPageObjects - 'Rating' radio button was selected.
+2021/05/17 06:25:14 [main] INFO  DesktopsPageObjects - Clicked on 'Continue' button.
+2021/05/17 06:25:15 [main] INFO  DesktopsPageObjects - Thank you message was displayed.
+2021/05/17 06:25:18 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/17 06:25:39 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/17 06:25:44 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/17 06:25:48 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/17 06:26:08 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/17 06:28:30 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/17 06:28:36 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 01:04:33 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 01:04:33 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 01:04:33 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 01:04:34 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 01:04:34 [main] INFO  DesktopsPageObjects - All items were displayed.
+2021/05/18 01:04:37 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 01:04:37 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 01:04:37 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 01:04:38 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 01:04:38 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/18 01:04:43 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 01:04:43 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 01:04:43 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 01:04:43 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 01:04:43 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/18 02:04:40 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:04:40 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:04:40 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:04:41 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:04:41 [main] INFO  DesktopsPageObjects - All items were displayed.
+2021/05/18 02:04:44 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:04:44 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:04:44 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:04:45 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:04:45 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/18 02:05:02 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/18 02:05:02 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/18 02:05:03 [main] INFO  DesktopsPageObjects - Success message was displayed.
+2021/05/18 02:05:06 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:05:06 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:05:06 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:05:07 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:05:07 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/18 02:05:26 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:05:26 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:05:26 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:05:27 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:05:28 [main] INFO  DesktopsPageObjects - Canon EOS 5D was selected.
+2021/05/18 02:05:43 [main] INFO  DesktopsPageObjects - Clicked on 'Write a Review' link.
+2021/05/18 02:05:43 [main] INFO  DesktopsPageObjects - Entered reviewer name in 'Your Name' field.
+2021/05/18 02:05:43 [main] INFO  DesktopsPageObjects - Entered review text in 'Your Review' field.
+2021/05/18 02:05:43 [main] INFO  DesktopsPageObjects - 'Rating' radio button was selected.
+2021/05/18 02:05:43 [main] INFO  DesktopsPageObjects - Clicked on 'Continue' button.
+2021/05/18 02:05:44 [main] INFO  DesktopsPageObjects - Thank you message was displayed.
+2021/05/18 02:05:47 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:07:21 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:07:21 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:07:21 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:07:23 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:07:23 [main] INFO  DesktopsPageObjects - All items were displayed.
+2021/05/18 02:07:26 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:07:26 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:07:26 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:07:27 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:07:27 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/18 02:07:46 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:07:46 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:07:46 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:07:47 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:07:47 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/18 02:10:17 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:10:17 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:10:17 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:10:17 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:10:18 [main] INFO  DesktopsPageObjects - All items were displayed.
+2021/05/18 02:10:20 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:10:21 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:10:21 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:10:21 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:10:22 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/18 02:10:23 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/18 02:10:24 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/18 02:10:25 [main] INFO  DesktopsPageObjects - Success message was displayed.
+2021/05/18 02:10:28 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:10:28 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:10:28 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:10:29 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:10:29 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/18 02:10:33 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:10:33 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/18 02:10:33 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/18 02:10:34 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/18 02:10:35 [main] INFO  DesktopsPageObjects - Canon EOS 5D was selected.
+2021/05/18 02:10:50 [main] INFO  DesktopsPageObjects - Clicked on 'Write a Review' link.
+2021/05/18 02:10:50 [main] INFO  DesktopsPageObjects - Entered reviewer name in 'Your Name' field.
+2021/05/18 02:10:50 [main] INFO  DesktopsPageObjects - Entered review text in 'Your Review' field.
+2021/05/18 02:10:50 [main] INFO  DesktopsPageObjects - 'Rating' radio button was selected.
+2021/05/18 02:10:50 [main] INFO  DesktopsPageObjects - Clicked on 'Continue' button.
+2021/05/18 02:10:51 [main] INFO  DesktopsPageObjects - Thank you message was displayed.
+2021/05/18 02:10:53 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:13:07 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/18 02:13:07 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
