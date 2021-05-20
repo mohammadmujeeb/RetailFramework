@@ -14,6 +14,8 @@ import core.Base;
 
 public class DesktopsPageObjects extends Base {
 
+	WebDriver driver = super.driver;
+	
 	public DesktopsPageObjects() {
 		PageFactory.initElements(driver, this);
 	}

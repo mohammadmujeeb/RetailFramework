@@ -3,6 +3,7 @@ package pageObjects;
 import java.util.List;
 
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +14,8 @@ import core.Base;
 public class RetailPageObjects extends Base {
 
 	boolean affiliateAccountExists;
+
+	WebDriver driver = super.driver;
 
 	public RetailPageObjects() {
 		PageFactory.initElements(driver, this);

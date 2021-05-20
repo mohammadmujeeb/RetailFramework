@@ -1,4 +1,4 @@
-pageObjects/DesktopsPageObjects.class
 pageObjects/RetailPageObjects.class
-pageObjects/LaptopsAndNotebooksPageObjects.class
 core/Base.class
+pageObjects/DesktopsPageObjects.class
+pageObjects/LaptopsAndNotebooksPageObjects.class
