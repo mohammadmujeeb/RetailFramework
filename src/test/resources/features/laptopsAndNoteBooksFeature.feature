@@ -1,6 +1,7 @@
 @LaptopsAndNotebooksFeature
 Feature: Laptop & Notebooks Feature
 
+
 Scenario: Add and Remove a Mac book from Cart
 Given User is on Retail website
 When User click on Laptops & NoteBooks tab

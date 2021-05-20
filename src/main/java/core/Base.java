@@ -33,34 +33,8 @@ public class Base {
 	public static WebDriver driver;
 	public static Properties properties;
 	public Logger logger = LogManager.getLogger(this.getClass().getSimpleName());
-	private static String log4JFilePath = System.getProperty("user.dir")
-			+ "/src/test/resources/inputData/log4j.properties";
-//	public ExtentSparkReporter reporter;
-	//public ExtentReports extent;
+	private static String log4JFilePath = System.getProperty("user.dir") + "/src/test/resources/inputData/log4j.properties";
 
-	
-	
-	
-	
-	
-//	public Scenario scenario;
-//
-//	public static String scenarioName;
-//	
-//	Date date = new Date();
-//	SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd 'at' HH:mm:ss");
-//	String reportName = " " + sdf.format(date).toString();
-//	
-//	public ExtentReports extent = getExtentReports("Retail Website Test" + reportName);
-//	public ExtentTest test;
-//	public ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
- 
-	
-	
-	
-	
-	
-	
 	
 	public static void initializeDriver() throws IOException {
 		properties = new Properties();
@@ -85,37 +59,39 @@ public class Base {
 			driver = new ChromeDriver();
 		}
 
-//		PropertyConfigurator.configure(log4JFilePath);
-
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(getWaitTime(), TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(getPageLoadTime(), TimeUnit.SECONDS);
 
 		driver.get(getURL());
-
 	}
 
+	
 	public static String getURL() {
 		String url = properties.getProperty("url");
 		return url;
 	}
 
+	
 	public static int getWaitTime() {
 		int i = Integer.valueOf(properties.getProperty("implicitlyWait"));
 		return i;
 	}
 
+	
 	public static int getPageLoadTime() {
 		int i = Integer.valueOf(properties.getProperty("pageLoadTimeOut"));
 		return i;
 	}
 
+	
 	public static void tearDown() {
 		driver.close();
 		driver.quit();
 	}
 
+	
 	public static String getTestScreenshot(String methodName) throws IOException {
 		Date date = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy");
@@ -131,24 +107,4 @@ public class Base {
 
 		return destinationPath;
 	}
-
-//	public ExtentReports getExtentReports(String methodName) {
-//
-//		Date date = new Date();
-//		SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy");
-//		String folderName = " " + sdf.format(date).toString();
-//
-//		String path = System.getProperty("user.dir") + "/reports/" + "extentReports" + folderName + "/" + methodName
-//				+ ".html";
-//
-//		reporter = new ExtentSparkReporter(path);
-//		reporter.config().setReportName("Web Automation Results");
-//		reporter.config().setDocumentTitle("Retail Website Test");
-//
-//		extent = new ExtentReports();
-//		extent.attachReporter(reporter);
-//		extent.setSystemInfo("Tester", "Mohammad Mujeeb");
-//
-//		return extent;
-//	}
 }

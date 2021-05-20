@@ -18,14 +18,3 @@ import io.cucumber.junit.CucumberOptions;
 public class TestRunner {
 
 }
-//public class TestRunner extends AbstractTestNGCucumberTests {
-//
-//}
-
-
-/*
- * Hi there fellow student, encountered this issue try changing your import of CucumberOptions in your TestRunner file from:
- * import io.cucumber.junit.CucumberOptions;  // If you want to run with junit, and import io.cucumber.testng.CucumberOptions; 
- * if you want to run with TestNGCucumber.xml file. More info with this issue on: 
- * https://stackoverflow.com/questions/57924656/io-cucumber-junit-cucumberoptions-vs-io-cucumber-testng-cucumberoptions-vs-cucum
- */

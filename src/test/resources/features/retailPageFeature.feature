@@ -1,6 +1,7 @@
 @RetailFeature
 Feature: Retail Page Feature (for this feature you have to have an existing account)
 
+
 Background: User is logged in and on My Account page
 Given User is on Retail website
 And User click on My Account
@@ -32,6 +33,7 @@ Then User should see a success message
 Examples:
 |bankName		|abaNumber	|swiftCode	|accountName|accountNumber	|
 |Wells Fargo	|415643274	|241585HL5	|Leo Perera	|41426973820	|
+
 
 Scenario Outline: Edit your account Information
 When User click on ‘Edit your account information’ link

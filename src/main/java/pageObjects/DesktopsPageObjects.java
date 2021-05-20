@@ -82,6 +82,7 @@ public class DesktopsPageObjects extends Base{
 
 	}
 	
+	
 	public void clickOnShowAllDesktopsMenu() {
 		if(showAllDesktopsMenu.isDisplayed()) {
 			showAllDesktopsMenu.click();
@@ -90,6 +91,7 @@ public class DesktopsPageObjects extends Base{
 			logger.error("'Show All Desktops' tab was not displayed.");
 		}
 	}
+	
 	
 	public boolean allItemsDisplayed() {
 		for(int i = 0; i < productsOnDesktopPage.size(); i++) {
@@ -101,6 +103,7 @@ public class DesktopsPageObjects extends Base{
 		logger.info("All items were displayed.");
 		return true;
 	}
+	
 	
 	public void selectAProduct(String product) {
 		for(int i = 0; i < productsOnDesktopPage.size(); i++) {
@@ -114,6 +117,8 @@ public class DesktopsPageObjects extends Base{
 			} 
 		}
 	}
+	
+	
 	public void clickOnAddToCartLink(String product) {
 		for(int i = 0; i < productsOnDesktopPage.size(); i++) {
 			if(productsOnDesktopPage.get(i).getText().equalsIgnoreCase(product)) {
@@ -127,6 +132,7 @@ public class DesktopsPageObjects extends Base{
 		}
 	}
 	
+	
 	public void enterProductQuantity(String quantity) {
 		if(productQuantity.isDisplayed()) {
 			productQuantity.clear();
@@ -138,6 +144,7 @@ public class DesktopsPageObjects extends Base{
 
 	}
 	
+	
 	public void clickOnAddToCartButton() {
 		if(addToCartButton.isDisplayed()) {
 			addToCartButton.click();
@@ -146,6 +153,7 @@ public class DesktopsPageObjects extends Base{
 			logger.error("'Add to Cart' button was not displayed.");
 		}
 	}
+	
 	
 	public boolean successAlertIsDisplayed(String successMessage) {
 		
@@ -161,6 +169,7 @@ public class DesktopsPageObjects extends Base{
 		return false;
 	}
 
+	
 	public void selectProductColor(String color) {
 		Select object = new Select(colorDropdown);
 		if(colorDropdown.isDisplayed()) {
@@ -171,6 +180,7 @@ public class DesktopsPageObjects extends Base{
 		}
 	}
 	
+	
 	public void clickOnWriteAReviewLink() {
 		if(writeAReview.isDisplayed()) {
 			writeAReview.click();
@@ -179,6 +189,7 @@ public class DesktopsPageObjects extends Base{
 			logger.error("'Write a Review' link was not displayed.");
 		}
 	}
+	
 	
 	public void writeAReview(String name, String review, String rating) {
 		int ratingNumber = Integer.valueOf(rating) - 1;
@@ -208,6 +219,7 @@ public class DesktopsPageObjects extends Base{
 		}
 	}
 	
+	
 	public void clickOnContinueButton() {
 		if(continueButton.isDisplayed()) {
 			continueButton.click();
@@ -217,6 +229,7 @@ public class DesktopsPageObjects extends Base{
 		}
 	}
 
+	
 	public boolean thankYouMessageIsDisplayed() {
 		if(thankYouMessage.getText().contains("Thank you for your review. It has been submitted to the webmaster for approval.")) {
 			logger.info("Thank you message was displayed.");

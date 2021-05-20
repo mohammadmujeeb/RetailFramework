@@ -12,10 +12,14 @@ import core.Base;
 
 public class RetailPageObjects extends Base {
 
+	boolean affiliateAccountExists;
+	
+	
 	public RetailPageObjects() {
 		PageFactory.initElements(driver, this);
 	}
 
+	
 	// locators
 
 	@FindBy(xpath = "//span[text()='My Account']")
@@ -104,6 +108,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void clickOnLogin() {
 		if(login.isDisplayed()) {
 			login.click();
@@ -113,6 +118,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterEmail(String emailAddress) {
 		if(email.isDisplayed()) {
 			email.clear();
@@ -123,6 +129,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterPassword(String pass) {
 		if(password.isDisplayed()) {
 			password.clear();
@@ -133,6 +140,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void clickOnLoginButton() {
 		if(loginButton.isDisplayed()) {
 			loginButton.click();
@@ -142,6 +150,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public boolean loggedInToDashboard() {
 		if (confirmDashboard.isDisplayed()) {
 			logger.info("Dashboard was displayed.");
@@ -151,46 +160,64 @@ public class RetailPageObjects extends Base {
 		return false;
 	}
 
-	public boolean clickOnRegisterForAffiliateAccount() {
+	
+	public void clickOnRegisterForAffiliateAccount() {
 		
 		try {
 			registerForAffiliateAccountLink.click();
 			logger.info("Clicked on 'Register for Affiliate Account Link'.");
-			return true;
+			affiliateAccountExists = true;
 		} catch (NoSuchElementException e) {
 			logger.error("Registration link does not exist: Affliate account already exists.");
-			return false;
+			affiliateAccountExists = false;
 		}
 	}
 
+	
 	public void enterCompanyName(String name) {
+		if(affiliateAccountExists == true) {
 			try {
 				companyName.sendKeys(name);
 				logger.info("Entered company name.");
 			} catch (NoSuchElementException e) {
 				logger.error(" -> Company Name skipped: Affliate account already exists.");
 			}
+		} else {
+			logger.error(" -> Company Name skipped: Affliate account already exists.");
+		}
 	}
 
+	
 	public void enterWebsite(String website) {
+		if(affiliateAccountExists == true) {
 			try {
 				companyWebsite.sendKeys(website);
 				logger.info("Website entered.");
 			} catch (NoSuchElementException e) {
 				logger.error(" -> Website skipped: Affliate account already exists.");
-			}
+			}	
+		} else {
+			logger.error(" -> Website skipped: Affliate account already exists.");
+		}
 	}
 
+	
 	public void enterTaxID(String taxID) {
+		if(affiliateAccountExists == true) {
 			try {
 				companyTaxID.sendKeys(taxID);
 				logger.info("Company ID entered.");
 			} catch (NoSuchElementException e) {
 				logger.error(" -> Tax ID skipped: Affliate account already exists.");
 			}
+		} else {
+			logger.error(" -> Tax ID skipped: Affliate account already exists.");
+		}
 	}
 
+	
 	public void enterPaymentMethod(String paymentMethod) {
+		if(affiliateAccountExists == true) {
 			try {
 				for (int i = 0; i < paymentMethods.size(); i++) {
 					if (paymentMethods.get(i).getText().contains(paymentMethod)) {
@@ -201,26 +228,40 @@ public class RetailPageObjects extends Base {
 			} catch (NoSuchElementException e) {
 				logger.error(" -> Payment Method skipped: Affliate account already exists.");
 			}
+		} else {
+			logger.error(" -> Payment Method skipped: Affliate account already exists.");
+		}
 	}
 
+	
 	public void enterChequePayeeName(String name) {
+		if(affiliateAccountExists == true) {
 			try {
 				chequePayeeName.sendKeys(name);
 				logger.info("Cheque payee name was entered.");
 			} catch (NoSuchElementException e) {
 				logger.error(" -> Cheque Payee Name skipped: Affliate account already exists.");
 			}
+		} else {
+			logger.error(" -> Cheque Payee Name skipped: Affliate account already exists.");
+		}
 	}
 
+	
 	public void checkAboutUsCheckbox() {
+		if(affiliateAccountExists == true) {
 			try {
 				agreeCheckbox.click();
 				logger.info("Agree checkbox selected.");
 			} catch (NoSuchElementException e) {
 				logger.error(" -> Checkbox selection skipped: Affliate account already exists.");
 			}
+		} else {
+			logger.error(" -> Checkbox selection skipped: Affliate account already exists.");
+		}
 	}
 
+	
 	public void clickOnContinueButton() {
 		try {
 			continueButton.click();
@@ -230,6 +271,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public boolean seeSuccessMessage() {
 		try {
 			if (alert.isDisplayed()) {
@@ -241,6 +283,7 @@ public class RetailPageObjects extends Base {
 		}
 		return false;
 	}
+	
 
 	public void clickOnEditYourAffiliateInfo() {
 		if(editYourAffiliateInfoLink.isDisplayed()) {
@@ -250,6 +293,7 @@ public class RetailPageObjects extends Base {
 			logger.error("'Edit your Affiliate Information' link was not displayed.");
 		}
 	}
+	
 
 	public void clickOnBankTransferRadioButton() {
 		for (int i = 0; i < paymentMethods.size(); i++) {
@@ -264,6 +308,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterBankName(String name) {
 		if(bankName.isDisplayed()) {
 			bankName.clear();
@@ -274,6 +319,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterABANumber(String number) {
 		if(branchNumber.isDisplayed()) {
 			branchNumber.clear();
@@ -284,6 +330,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterSwiftCode(String code) {
 		if(swiftCode.isDisplayed()) {
 			swiftCode.clear();
@@ -294,6 +341,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterAccountName(String name) {
 		if(accountName.isDisplayed()) {
 			accountName.clear();
@@ -304,6 +352,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterAccountNumber(String number) {
 		if(accountNumber.isDisplayed()) {
 			accountNumber.clear();
@@ -313,6 +362,7 @@ public class RetailPageObjects extends Base {
 			logger.error("Account number text box was not displayed.");
 		}
 	}
+	
 
 	public void clickOnEditYourAccountInfo() {
 		if(editYourAccountInfoLink.isDisplayed()) {
@@ -323,6 +373,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterFirstName(String name) {
 		if(firstName.isDisplayed()) {
 			firstName.clear();
@@ -333,6 +384,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterLastName(String name) {
 		if(lastName.isDisplayed()) {
 			lastName.clear();
@@ -343,6 +395,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public void enterTelephone(String phone) {
 		if(lastName.isDisplayed()) {
 			telephone.clear();
@@ -353,6 +406,7 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
+	
 	public boolean successMessageMatches() {
 		if (alert.getText().contains("Success: Your account has been successfully updated.")) {
 			tearDown();

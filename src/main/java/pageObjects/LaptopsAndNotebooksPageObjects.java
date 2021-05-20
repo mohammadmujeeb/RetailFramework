@@ -15,6 +15,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		PageFactory.initElements(driver, this);
 	}
 
+	
 	//locators
 	
 	@FindBy(xpath = "//a[text()='Laptops & Notebooks']")
@@ -74,6 +75,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		}
 	}
 	
+	
 	public void clickOnShowAllLaptopAndNotebooksOption() {
 		if(showAllLaptopsAndNotebooks.isDisplayed()) {
 			showAllLaptopsAndNotebooks.click();
@@ -82,6 +84,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 			logger.error("'Show All Laptops & Notebooks' was not displayed.");
 		}
 	}
+	
 	
 	public void clickOnProduct(String product) {
 		
@@ -97,6 +100,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		}
 	}
 	
+	
 	public void clickOnAddToCartButton() {
 		if(addToCartButton.isDisplayed()) {
 			addToCartButton.click();
@@ -105,6 +109,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 			logger.error("'Add to Cart' button was not displayed.");
 		}
 	}
+	
 	
 	public boolean alertMessageIsDisplayed(String successMessage) {
 		String message = alert.getText();
@@ -116,6 +121,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		return false;
 	}
 	
+	
 	public boolean cartTotalIsDisplayed(String cartTotal) {
 		String total = this.cartTotal.getText();
 		if(cartTotal.equalsIgnoreCase(total)) {
@@ -126,6 +132,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		return false;
 	}
 	
+	
 	public void clickOnCartOption() {
 		if(cartTotal.isDisplayed()) {
 			cartTotal.click();
@@ -135,6 +142,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		}
 	}
 	
+	
 	public void clickOnRedXButton() {
 		if(redXButton.isDisplayed()) {
 			redXButton.click();
@@ -143,6 +151,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 			logger.error("Red X button was not displayed.");
 		}
 	}
+	
 	
 	public void clickOnProductComparisonIcon(String product) {
 		for(int i = 0; i < this.productsOnLaptopsAndNotebooksPage.size(); i++) {
@@ -157,6 +166,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		}
 	}
 	
+	
 	public void clickOnProductComparisonLink() {
 		if(productComparisonLink.isDisplayed()) {
 			productComparisonLink.click();
@@ -166,6 +176,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		}
 	}
 	
+	
 	public boolean productComparisonChartIsDisplayed() {
 		if(productComparisonChart.isDisplayed()) {
 			logger.info("'Product Comparison' chart was displayed.");
@@ -174,6 +185,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 		logger.error("'Product Comparison' chart was not displayed.");
 		return false;
 	}
+	
 	
 	public void addProductToWishList(String product) {
 		for(int i = 0; i < this.productsOnLaptopsAndNotebooksPage.size(); i++) {
@@ -187,6 +199,7 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 			}
 		}
 	}
+	
 	
 	public boolean priceTagIsDisplayed(String price) { 
 		if(this.priceTag.getText().equalsIgnoreCase(price)) {
