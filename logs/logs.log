@@ -1,91 +1,16 @@
-2021/05/20 01:31:00 [main] INFO  DesktopsTest - Clicked on the desk.
-2021/05/20 01:31:01 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
-2021/05/20 01:31:01 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
-2021/05/20 01:31:36 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:31:36 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
-2021/05/20 01:31:36 [main] INFO  DesktopsTest - Clicked on the desk.
-2021/05/20 01:31:37 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
-2021/05/20 01:31:37 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
-2021/05/20 01:32:11 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:32:12 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
-2021/05/20 01:32:12 [main] INFO  DesktopsTest - Clicked on the desk.
-2021/05/20 01:32:12 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
-2021/05/20 01:32:13 [main] INFO  DesktopsPageObjects - Canon EOS 5D was selected.
-2021/05/20 01:32:43 [main] INFO  DesktopsPageObjects - Clicked on 'Write a Review' link.
-2021/05/20 01:32:44 [main] INFO  DesktopsPageObjects - Entered reviewer name in 'Your Name' field.
-2021/05/20 01:32:44 [main] INFO  DesktopsPageObjects - Entered review text in 'Your Review' field.
-2021/05/20 01:32:44 [main] INFO  DesktopsPageObjects - 'Rating' radio button was selected.
-2021/05/20 01:32:44 [main] INFO  DesktopsPageObjects - Clicked on 'Continue' button.
-2021/05/20 01:32:44 [main] INFO  DesktopsPageObjects - Thank you message was displayed.
-2021/05/20 01:32:47 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:32:47 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.
-2021/05/20 01:32:48 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Show All Laptops & Notebooks' menu.
-2021/05/20 01:32:49 [main] INFO  LaptopsAndNotebooksPageObjects - MacBook was selected.
-2021/05/20 01:33:19 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Add to Cart' button.
-2021/05/20 01:33:19 [main] ERROR LaptopsAndNotebooksPageObjects - Success message was not displayed or is incorrect.
-2021/05/20 01:33:19 [main] ERROR LaptopsAndNotebooksPageObjects - Cart total was not displayed or is incorrect.
-2021/05/20 01:33:20 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on cart option.
-2021/05/20 01:33:20 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on red X button.
-2021/05/20 01:33:20 [main] ERROR LaptopsAndNotebooksPageObjects - Cart total was not displayed or is incorrect.
-2021/05/20 01:33:23 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:33:23 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.
-2021/05/20 01:33:24 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Show All Laptops & Notebooks' menu.
-2021/05/20 01:33:24 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Compare this Product' icon.
-2021/05/20 01:33:24 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Compare this Product' icon.
-2021/05/20 01:33:24 [main] ERROR LaptopsAndNotebooksPageObjects - Success message was not displayed or is incorrect.
-2021/05/20 01:33:24 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'product comparison' link.
-2021/05/20 01:33:58 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:33:58 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.
-2021/05/20 01:33:58 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Show All Laptops & Notebooks' menu.
-2021/05/20 01:33:58 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Add to Wish List' icon.
-2021/05/20 01:33:59 [main] ERROR LaptopsAndNotebooksPageObjects - Success message was not displayed or is incorrect.
-2021/05/20 01:34:02 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:34:02 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.
-2021/05/20 01:34:02 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Show All Laptops & Notebooks' menu.
-2021/05/20 01:34:04 [main] INFO  LaptopsAndNotebooksPageObjects - MacBook Pro was selected.
-2021/05/20 01:34:34 [main] INFO  LaptopsAndNotebooksPageObjects - Price tag was dispayed.
-2021/05/20 01:34:37 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:34:37 [main] INFO  RetailPageObjects - Clicked on 'My Account' tab.
-2021/05/20 01:34:38 [main] INFO  RetailPageObjects - Clicked on 'Login' menu.
-2021/05/20 01:34:38 [main] INFO  RetailPageObjects - Entered email address.
-2021/05/20 01:34:38 [main] INFO  RetailPageObjects - Password was entered.
-2021/05/20 01:34:39 [main] INFO  RetailPageObjects - Clicked on 'Login' button.
-2021/05/20 01:34:39 [main] INFO  RetailPageObjects - Dashboard was displayed.
-2021/05/20 01:35:09 [main] ERROR RetailPageObjects - Registration link does not exist: Affliate account already exists.
-2021/05/20 01:35:09 [main] ERROR RetailPageObjects -  -> Company Name skipped: Affliate account already exists.
-2021/05/20 01:35:09 [main] ERROR RetailPageObjects -  -> Website skipped: Affliate account already exists.
-2021/05/20 01:35:09 [main] ERROR RetailPageObjects -  -> Tax ID skipped: Affliate account already exists.
-2021/05/20 01:35:09 [main] ERROR RetailPageObjects -  -> Payment Method skipped: Affliate account already exists.
-2021/05/20 01:35:09 [main] ERROR RetailPageObjects -  -> Cheque Payee Name skipped: Affliate account already exists.
-2021/05/20 01:35:09 [main] ERROR RetailPageObjects -  -> Checkbox selection skipped: Affliate account already exists.
-2021/05/20 01:35:39 [main] ERROR RetailPageObjects -  -> 'Continue' button skipped: Affliate account already exists.
-2021/05/20 01:36:09 [main] ERROR RetailPageObjects - Success message was not displayed.
-2021/05/20 01:36:12 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:36:12 [main] INFO  RetailPageObjects - Clicked on 'My Account' tab.
-2021/05/20 01:36:12 [main] INFO  RetailPageObjects - Clicked on 'Login' menu.
-2021/05/20 01:36:12 [main] INFO  RetailPageObjects - Entered email address.
-2021/05/20 01:36:12 [main] INFO  RetailPageObjects - Password was entered.
-2021/05/20 01:36:13 [main] INFO  RetailPageObjects - Clicked on 'Login' button.
-2021/05/20 01:36:13 [main] INFO  RetailPageObjects - Dashboard was displayed.
-2021/05/20 01:36:13 [main] INFO  RetailPageObjects - Clicked on 'Edit your Affliate Information' link.
-2021/05/20 01:36:13 [main] INFO  RetailPageObjects - Bank name entered.
-2021/05/20 01:36:13 [main] INFO  RetailPageObjects - Branch number was entered.
-2021/05/20 01:36:13 [main] INFO  RetailPageObjects - Swift code was entered.
-2021/05/20 01:36:14 [main] INFO  RetailPageObjects - Account name was entered.
-2021/05/20 01:36:14 [main] INFO  RetailPageObjects - Account number was entered.
-2021/05/20 01:36:14 [main] INFO  RetailPageObjects - Clicked on 'Continue' button.
-2021/05/20 01:36:14 [main] INFO  RetailPageObjects - Success message is displayed.
-2021/05/20 01:36:17 [main] INFO  DesktopsTest - Initialized the driver.
-2021/05/20 01:36:17 [main] INFO  RetailPageObjects - Clicked on 'My Account' tab.
-2021/05/20 01:36:17 [main] INFO  RetailPageObjects - Clicked on 'Login' menu.
-2021/05/20 01:36:18 [main] INFO  RetailPageObjects - Entered email address.
-2021/05/20 01:36:18 [main] INFO  RetailPageObjects - Password was entered.
-2021/05/20 01:36:18 [main] INFO  RetailPageObjects - Clicked on 'Login' button.
-2021/05/20 01:36:18 [main] INFO  RetailPageObjects - Dashboard was displayed.
-2021/05/20 01:36:19 [main] INFO  RetailPageObjects - Clicked on 'Edit your Account Information' link.
-2021/05/20 01:36:19 [main] INFO  RetailPageObjects - Entered first name.
-2021/05/20 01:36:19 [main] INFO  RetailPageObjects - Entered last name.
-2021/05/20 01:36:19 [main] INFO  RetailPageObjects - Entered email address.
-2021/05/20 01:36:19 [main] INFO  RetailPageObjects - Entered telephone number.
-2021/05/20 01:36:20 [main] INFO  RetailPageObjects - Clicked on 'Continue' button.
-2021/05/20 01:36:20 [main] INFO  RetailPageObjects - Success message was displayed.
+2021/05/20 02:58:55 [main] INFO  RetailPageObjects - Clicked on 'Continue' button.
+2021/05/20 02:58:55 [main] INFO  RetailPageObjects - Success message is displayed.
+2021/05/20 02:58:58 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 02:58:58 [main] INFO  RetailPageObjects - Clicked on 'My Account' tab.
+2021/05/20 02:58:59 [main] INFO  RetailPageObjects - Clicked on 'Login' menu.
+2021/05/20 02:58:59 [main] INFO  RetailPageObjects - Entered email address.
+2021/05/20 02:58:59 [main] INFO  RetailPageObjects - Password was entered.
+2021/05/20 02:58:59 [main] INFO  RetailPageObjects - Clicked on 'Login' button.
+2021/05/20 02:58:59 [main] INFO  RetailPageObjects - Dashboard was displayed.
+2021/05/20 02:59:00 [main] INFO  RetailPageObjects - Clicked on 'Edit your Account Information' link.
+2021/05/20 02:59:00 [main] INFO  RetailPageObjects - Entered first name.
+2021/05/20 02:59:00 [main] INFO  RetailPageObjects - Entered last name.
+2021/05/20 02:59:00 [main] INFO  RetailPageObjects - Entered email address.
+2021/05/20 02:59:01 [main] INFO  RetailPageObjects - Entered telephone number.
+2021/05/20 02:59:01 [main] INFO  RetailPageObjects - Clicked on 'Continue' button.
+2021/05/20 02:59:01 [main] INFO  RetailPageObjects - Success message was displayed.

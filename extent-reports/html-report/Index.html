@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Retail Website Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 20, 2021 01:30:51 AM</span></a>
+<a href="#"><span class="badge badge-primary">May 20, 2021 02:54:01 AM</span></a>
 </li>
 </ul>
 </div>
@@ -71,25 +71,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 20, 2021 01:30:51 AM</h3>
+<h3>May 20, 2021 02:54:01 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 20, 2021 01:36:20 AM</h3>
+<h3>May 20, 2021 02:59:01 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>2</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -105,12 +105,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='33%'>
-<b>1</b> features passed
+<div><small data-tooltip='66%'>
+<b>2</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='66%'><b>2</b> features failed,
+<small data-tooltip='33%'><b>1</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -128,9 +128,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='72%'><b>8</b> scenarios passed</small></div>
+<div><small data-tooltip='90%'><b>10</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='27%'><b>3</b> scenarios failed,
+<small data-tooltip='9%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -148,10 +148,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='88%'><b>80</b> steps passed</small></div>
+<div><small data-tooltip='97%'><b>86</b> steps passed</small></div>
 <div>
-<small data-tooltip='3%'><b>3</b> steps failed,
-<b>7</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='1%'><b>1</b> steps failed,
+<b>1</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Desktops Feature":112.947,"Laptop & Notebooks Feature":110.071,"Retail Page Feature (for this feature you have to have an existing account)":105.409
+"Desktops Feature":114.618,"Laptop & Notebooks Feature":79.207,"Retail Page Feature (for this feature you have to have an existing account)":105.356
 };
 </script>
 <div class="row">
@@ -178,15 +178,7 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@DesktopsFeature</td>
-<td>2</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>50%</td>
-</tr>
-<tr>
-<td>@RetailFeature</td>
-<td>3</td>
+<td>4</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -199,6 +191,14 @@ var timeline = {
 <td>0</td>
 <td>0</td>
 <td>75%</td>
+</tr>
+<tr>
+<td>@RetailFeature</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -231,21 +231,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 2,
+passParent: 2,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 8,
-failChild: 3,
+passChild: 10,
+failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 80,
-failGrandChild: 3,
+passGrandChild: 86,
+failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 7,
+skipGrandChild: 1,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -268,31 +268,31 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@DesktopsFeature</a><a class="dropdown-item" href="#">@RetailFeature</a><a class="dropdown-item" href="#">@LaptopsAndNotebooksFeature</a>
+<a class="dropdown-item" href="#">@DesktopsFeature</a><a class="dropdown-item" href="#">@LaptopsAndNotebooksFeature</a><a class="dropdown-item" href="#">@RetailFeature</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Desktops Feature</p>
             <p class="text-sm">
-              <span>01:30:51 AM</span> / <span>00:01:52:947</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>02:54:02 AM</span> / <span>00:01:54:618</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Desktops Feature</h5>
-<span class='badge badge-success'>05.20.2021 01:30:51</span>
-<span class='badge badge-danger'>05.20.2021 01:32:44</span>
-<span class='badge badge-default'>00:01:52:947</span>
+<h5 class="test-status text-pass">Desktops Feature</h5>
+<span class='badge badge-success'>05.20.2021 02:54:02</span>
+<span class='badge badge-danger'>05.20.2021 02:55:57</span>
+<span class='badge badge-default'>00:01:54:618</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -333,13 +333,10 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="8"><span class="badge log fail-bg mr-2">Fail</span>User add HP LP 3065 from Desktops tab to the cart</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>User add HP LP 3065 from Desktops tab to the cart</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_is_on_retail_website()">
                 <span>Given User is on Retail website</span>
@@ -356,50 +353,23 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="stepDefinitions.DesktopsTest.user_click_add_to_cart_option_on_something_item(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_click_add_to_cart_option_on_something_item(java.lang.String)">
                 <span>And User click ADD TO CART option on "HP LP3065" item</span>
       <div>
-        <textarea disabled class="code-block">java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:373)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at java.base/jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at com.sun.proxy.$Proxy36.get(Unknown Source)
-	at pageObjects.DesktopsPageObjects.clickOnAddToCartLink(DesktopsPageObjects.java:114)
-	at stepDefinitions.DesktopsTest.user_click_add_to_cart_option_on_something_item(DesktopsTest.java:36)
-	at ✽.User click ADD TO CART option on "HP LP3065" item(file:///Users/mohammadmujeeb/Documents/GitHub/GitDemo/RetailFramework/src/test/resources/features/desktopsFeature.feature:16)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.DesktopsTest.user_select_quantity_something(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_select_quantity_something(java.lang.String)">
                 <span>And User select quantity "1"</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.DesktopsTest.user_click_add_to_cart_button()">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_click_add_to_cart_button()">
                 <span>And User click add to Cart button</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.DesktopsTest.user_should_see_a_message_success_you_have_added_something_to_your_shopping_cart(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_should_see_a_message_success_you_have_added_something_to_your_shopping_cart(java.lang.String)">
                 <span>Then User should see a message ‘Success: you have added "HP LP3065" to your shopping cart!’</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step pass-bg" title="AFTER">
-                <span>stepDefinitions.RetailPageTest.tearDown(io.cucumber.java.Scenario)</span>
-      <div>User_add_HP_LP_3065_from_Desktops_tab_to_the_cart
-          <div class="row mb-3"><div class="col-md-3">
-    <img data-featherlight='../embedded1.png' src="../embedded1.png">
-    
-    </div></div>
-</div>
       <div>
       </div>
               </div>
@@ -409,13 +379,10 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="17"><span class="badge log fail-bg mr-2">Fail</span>User add Canon EOS 5D from Desktops tab to the cart</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>User add Canon EOS 5D from Desktops tab to the cart</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_is_on_retail_website()">
                 <span>Given User is on Retail website</span>
@@ -432,55 +399,28 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="stepDefinitions.DesktopsTest.user_click_add_to_cart_option_on_something_item(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_click_add_to_cart_option_on_something_item(java.lang.String)">
                 <span>And User click ADD TO CART option on "Canon EOS 5D" item</span>
       <div>
-        <textarea disabled class="code-block">java.lang.IndexOutOfBoundsException: Index 7 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:373)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at java.base/jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at com.sun.proxy.$Proxy36.get(Unknown Source)
-	at pageObjects.DesktopsPageObjects.clickOnAddToCartLink(DesktopsPageObjects.java:114)
-	at stepDefinitions.DesktopsTest.user_click_add_to_cart_option_on_something_item(DesktopsTest.java:36)
-	at ✽.User click ADD TO CART option on "Canon EOS 5D" item(file:///Users/mohammadmujeeb/Documents/GitHub/GitDemo/RetailFramework/src/test/resources/features/desktopsFeature.feature:26)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.DesktopsTest.user_select_color_from_dropdown_something(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_select_color_from_dropdown_something(java.lang.String)">
                 <span>And User select color from dropdown "Red"</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.DesktopsTest.user_select_quantity_something(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_select_quantity_something(java.lang.String)">
                 <span>And User select quantity "1"</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.DesktopsTest.user_click_add_to_cart_button()">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_click_add_to_cart_button()">
                 <span>And User click add to Cart button</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.DesktopsTest.user_should_see_a_message_success_you_have_added_something_to_your_shopping_cart(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_should_see_a_message_success_you_have_added_something_to_your_shopping_cart(java.lang.String)">
                 <span>Then User should see a message ‘Success: you have added "Canon EOS 5D" to your shopping cart!’</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step pass-bg" title="AFTER">
-                <span>stepDefinitions.RetailPageTest.tearDown(io.cucumber.java.Scenario)</span>
-      <div>User_add_Canon_EOS_5D_from_Desktops_tab_to_the_cart
-          <div class="row mb-3"><div class="col-md-3">
-    <img data-featherlight='../embedded2.png' src="../embedded2.png">
-    
-    </div></div>
-</div>
       <div>
       </div>
               </div>
@@ -555,7 +495,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Laptop & Notebooks Feature</p>
             <p class="text-sm">
-              <span>01:32:44 AM</span> / <span>00:01:50:071</span>
+              <span>02:55:57 AM</span> / <span>00:01:19:207</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -564,9 +504,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Laptop & Notebooks Feature</h5>
-<span class='badge badge-success'>05.20.2021 01:32:44</span>
-<span class='badge badge-danger'>05.20.2021 01:34:34</span>
-<span class='badge badge-default'>00:01:50:071</span>
+<span class='badge badge-success'>05.20.2021 02:55:57</span>
+<span class='badge badge-danger'>05.20.2021 02:57:16</span>
+<span class='badge badge-default'>00:01:19:207</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -675,23 +615,17 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.LaptopsAndNotebooksTest.user_click_on_product_comparison_link()">
+              <div class="step fail-bg" title="stepDefinitions.LaptopsAndNotebooksTest.user_click_on_product_comparison_link()">
                 <span>And User click on Product Comparison link</span>
       <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="stepDefinitions.LaptopsAndNotebooksTest.user_should_see_product_comparison_chart()">
-                <span>Then User should see Product Comparison chart</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"table[class='table table-bordered']"}
+        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=90.0.4430.212)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Mujeebs-MacBook-Pro.local', ip: 'fe80:0:0:0:7f:79ff:253c:b372%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/p_/bqpx96qs10q...}, goog:chromeOptions: {debuggerAddress: localhost:53782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ee564e488f05e6926f7a24cfcfc368f7
-*** Element info: {Using=css selector, value=table[class='table table-bordered']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/p_/bqpx96qs10q...}, goog:chromeOptions: {debuggerAddress: localhost:57972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -703,25 +637,30 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy34.isDisplayed(Unknown Source)
-	at pageObjects.LaptopsAndNotebooksPageObjects.productComparisonChartIsDisplayed(LaptopsAndNotebooksPageObjects.java:166)
-	at stepDefinitions.LaptopsAndNotebooksTest.user_should_see_product_comparison_chart(LaptopsAndNotebooksTest.java:52)
-	at ✽.User should see Product Comparison chart(file:///Users/mohammadmujeeb/Documents/GitHub/GitDemo/RetailFramework/src/test/resources/features/laptopsAndNoteBooksFeature.feature:26)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy34.click(Unknown Source)
+	at pageObjects.LaptopsAndNotebooksPageObjects.clickOnProductComparisonLink(LaptopsAndNotebooksPageObjects.java:158)
+	at stepDefinitions.LaptopsAndNotebooksTest.user_click_on_product_comparison_link(LaptopsAndNotebooksTest.java:113)
+	at ✽.User click on Product Comparison link(file:///Users/mohammadmujeeb/Documents/GitHub/GitDemo/RetailFramework/src/test/resources/features/laptopsAndNoteBooksFeature.feature:24)
 </textarea>
       
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.LaptopsAndNotebooksTest.user_should_see_product_comparison_chart()">
+                <span>Then User should see Product Comparison chart</span>
+      <div>Step skipped
       </div>
               </div>
               <div class="step pass-bg" title="AFTER">
                 <span>stepDefinitions.RetailPageTest.tearDown(io.cucumber.java.Scenario)</span>
       <div>Product_Comparison
           <div class="row mb-3"><div class="col-md-3">
-    <img data-featherlight='../embedded3.png' src="../embedded3.png">
+    <img data-featherlight='../embedded1.png' src="../embedded1.png">
     
     </div></div>
 </div>
@@ -813,7 +752,7 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
           <div class="test-detail">
             <p class="name">Retail Page Feature (for this feature you have to have an existing account)</p>
             <p class="text-sm">
-              <span>01:34:34 AM</span> / <span>00:01:45:409</span>
+              <span>02:57:16 AM</span> / <span>00:01:45:356</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -822,9 +761,9 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Retail Page Feature (for this feature you have to have an existing account)</h5>
-<span class='badge badge-success'>05.20.2021 01:34:34</span>
-<span class='badge badge-danger'>05.20.2021 01:36:20</span>
-<span class='badge badge-default'>00:01:45:409</span>
+<span class='badge badge-success'>05.20.2021 02:57:16</span>
+<span class='badge badge-danger'>05.20.2021 02:59:01</span>
+<span class='badge badge-default'>00:01:45:356</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=75</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -1068,8 +1007,7 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>2</span>
-<span class='badge log badge-danger'>2</span>
+<span class='badge log pass-bg'>4</span>
 </span>
 <p class="name">@DesktopsFeature</p>
 <p class="duration text-sm">4 tests</p>
@@ -1077,8 +1015,7 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 <div class="test-contents d-none">
 <div class="info">
 <h4>@DesktopsFeature</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1091,7 +1028,7 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>01:30:51 AM</td>
+<td>02:54:02 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>User verify all items are present in Desktops tab</a>
 <div class="">
@@ -1099,9 +1036,9 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>01:30:57 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>02:54:07 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='8'>User add HP LP 3065 from Desktops tab to the cart</a>
 <div class="">
@@ -1109,9 +1046,9 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>01:31:33 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>02:54:44 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='17'>User add Canon EOS 5D from Desktops tab to the cart</a>
 <div class="">
@@ -1121,67 +1058,11 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>01:32:08 AM</td>
+<td>02:55:21 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='28'>User add a review to Canon EOS 5D item in Desktops tab</a>
 <div class="">
 <span class="badge badge-default">Desktops Feature.User add a review to Canon EOS 5D item in Desktops tab</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>3</span>
-</span>
-<p class="name">@RetailFeature</p>
-<p class="duration text-sm">3 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@RetailFeature</h4>
-<span status="pass" class='badge log pass-bg'>3 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>01:34:34 AM</td>
-<td>
-<a href="#" class="linked" test-id='75' id='77'>Register as an Affiliate user with Cheque Payment Method</a>
-<div class="">
-<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Register as an Affiliate user with Cheque Payment Method</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>01:36:09 AM</td>
-<td>
-<a href="#" class="linked" test-id='75' id='91'>Edit your affiliate information from Cheque payment method to Bank Transfer</a>
-<div class="">
-<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your affiliate information from Cheque payment method to Bank Transfer</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>01:36:14 AM</td>
-<td>
-<a href="#" class="linked" test-id='75' id='105'>Edit your account Information</a>
-<div class="">
-<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your account Information</span>
 </div>
 </td>
 </tr>
@@ -1215,7 +1096,7 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>01:32:44 AM</td>
+<td>02:55:57 AM</td>
 <td>
 <a href="#" class="linked" test-id='38' id='39'>Add and Remove a Mac book from Cart</a>
 <div class="">
@@ -1225,7 +1106,7 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>01:33:20 AM</td>
+<td>02:56:32 AM</td>
 <td>
 <a href="#" class="linked" test-id='38' id='51'>Product Comparison</a>
 <div class="">
@@ -1235,7 +1116,7 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>01:33:54 AM</td>
+<td>02:56:37 AM</td>
 <td>
 <a href="#" class="linked" test-id='38' id='61'>Adding an item to Wish list</a>
 <div class="">
@@ -1245,11 +1126,67 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>01:33:59 AM</td>
+<td>02:56:41 AM</td>
 <td>
 <a href="#" class="linked" test-id='38' id='68'>Validate the price of MacBook Pro is 2000</a>
 <div class="">
 <span class="badge badge-default">Laptop & Notebooks Feature.Validate the price of MacBook Pro is 2000</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@RetailFeature</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RetailFeature</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>02:57:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='75' id='77'>Register as an Affiliate user with Cheque Payment Method</a>
+<div class="">
+<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Register as an Affiliate user with Cheque Payment Method</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>02:58:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='75' id='91'>Edit your affiliate information from Cheque payment method to Bank Transfer</a>
+<div class="">
+<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your affiliate information from Cheque payment method to Bank Transfer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>02:58:55 AM</td>
+<td>
+<a href="#" class="linked" test-id='75' id='105'>Edit your account Information</a>
+<div class="">
+<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your account Information</span>
 </div>
 </td>
 </tr>
@@ -1269,7 +1206,7 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
@@ -1278,12 +1215,12 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
+<h4>org.openqa.selenium.StaleElementReferenceException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -1297,57 +1234,11 @@ Session ID: ee564e488f05e6926f7a24cfcfc368f7
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>01:33:24 AM</td>
+<td>02:56:36 AM</td>
 <td>
-<a href="#" class="linked" test-id='38' id='59'>Then User should see Product Comparison chart</a>
+<a href="#" class="linked" test-id='38' id='58'>And User click on Product Comparison link</a>
 <div class="">
-<span class="badge badge-default">Laptop & Notebooks Feature.Product Comparison.Then User should see Product Comparison chart</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">java.lang.IndexOutOfBoundsException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>java.lang.IndexOutOfBoundsException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>01:31:01 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='12'>And User click ADD TO CART option on "HP LP3065" item</a>
-<div class="">
-<span class="badge badge-default">Desktops Feature.User add HP LP 3065 from Desktops tab to the cart.And User click ADD TO CART option on "HP LP3065" item</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>01:31:37 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='21'>And User click ADD TO CART option on "Canon EOS 5D" item</a>
-<div class="">
-<span class="badge badge-default">Desktops Feature.User add Canon EOS 5D from Desktops tab to the cart.And User click ADD TO CART option on "Canon EOS 5D" item</span>
+<span class="badge badge-default">Laptop & Notebooks Feature.Product Comparison.And User click on Product Comparison link</span>
 </div>
 </td>
 </tr>
