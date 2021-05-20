@@ -1,6 +1,5 @@
 @RetailFeature 
-Feature: Retail Page Feature (for this feature you have to have an existing account) 
-
+Feature: Retail Page Feature
 
 Background: User is logged in and on My Account page 
 	Given User is on Retail website 
@@ -23,8 +22,8 @@ Scenario Outline: Register as an Affiliate user with Cheque Payment Method
 		|ABC		|www.abc.org	|59634522	|Cheque			|Sam Boswell		|
 		
 		
-Scenario Outline: 
-	Edit your affiliate information from Cheque payment method to Bank Transfer 
+Scenario Outline:
+Edit your affiliate information from Cheque payment method to Bank Transfer 
 	When User click on ‘Edit your affiliate information' link 
 	And user click on Bank Transfer radio button 
 	And User fill Bank information with below information <bankName>, <abaNumber>, <swiftCode>, <accountName> and <accountNumber> 
@@ -34,7 +33,6 @@ Scenario Outline:
 	Examples: 
 		|bankName		|abaNumber	|swiftCode	|accountName|accountNumber	|
 		|Wells Fargo	|415643274	|241585HL5	|Leo Perera	|41426973820	|
-		
 		
 Scenario Outline: Edit your account Information 
 	When User click on ‘Edit your account information’ link 
