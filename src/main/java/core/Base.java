@@ -33,9 +33,9 @@ public class Base {
 	public static WebDriver driver;
 	public static Properties properties;
 	public Logger logger = LogManager.getLogger(this.getClass().getSimpleName());
-	private static String log4JFilePath = System.getProperty("user.dir") + "/src/test/resources/inputData/log4j.properties";
+	private static String log4JFilePath = System.getProperty("user.dir")
+			+ "/src/test/resources/inputData/log4j.properties";
 
-	
 	public static void initializeDriver() throws IOException {
 		properties = new Properties();
 		String path = System.getProperty("user.dir") + "/src/test/resources/inputData/projectProperties.properties";
@@ -67,31 +67,26 @@ public class Base {
 		driver.get(getURL());
 	}
 
-	
 	public static String getURL() {
 		String url = properties.getProperty("url");
 		return url;
 	}
 
-	
 	public static int getWaitTime() {
 		int i = Integer.valueOf(properties.getProperty("implicitlyWait"));
 		return i;
 	}
 
-	
 	public static int getPageLoadTime() {
 		int i = Integer.valueOf(properties.getProperty("pageLoadTimeOut"));
 		return i;
 	}
 
-	
 	public static void tearDown() {
 		driver.close();
 		driver.quit();
 	}
 
-	
 	public static String getTestScreenshot(String methodName) throws IOException {
 		Date date = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy");

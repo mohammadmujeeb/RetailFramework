@@ -13,13 +13,11 @@ import core.Base;
 public class RetailPageObjects extends Base {
 
 	boolean affiliateAccountExists;
-	
-	
+
 	public RetailPageObjects() {
 		PageFactory.initElements(driver, this);
 	}
 
-	
 	// locators
 
 	@FindBy(xpath = "//span[text()='My Account']")
@@ -100,7 +98,7 @@ public class RetailPageObjects extends Base {
 	// methods
 
 	public void clickOnMyAccount() {
-		if(myAccount.isDisplayed()) {
+		if (myAccount.isDisplayed()) {
 			myAccount.click();
 			logger.info("Clicked on 'My Account' tab.");
 		} else {
@@ -108,9 +106,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void clickOnLogin() {
-		if(login.isDisplayed()) {
+		if (login.isDisplayed()) {
 			login.click();
 			logger.info("Clicked on 'Login' menu.");
 		} else {
@@ -118,9 +115,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterEmail(String emailAddress) {
-		if(email.isDisplayed()) {
+		if (email.isDisplayed()) {
 			email.clear();
 			email.sendKeys(emailAddress);
 			logger.info("Entered email address.");
@@ -129,9 +125,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterPassword(String pass) {
-		if(password.isDisplayed()) {
+		if (password.isDisplayed()) {
 			password.clear();
 			password.sendKeys(pass);
 			logger.info("Password was entered.");
@@ -140,9 +135,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void clickOnLoginButton() {
-		if(loginButton.isDisplayed()) {
+		if (loginButton.isDisplayed()) {
 			loginButton.click();
 			logger.info("Clicked on 'Login' button.");
 		} else {
@@ -150,7 +144,6 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public boolean loggedInToDashboard() {
 		if (confirmDashboard.isDisplayed()) {
 			logger.info("Dashboard was displayed.");
@@ -160,9 +153,8 @@ public class RetailPageObjects extends Base {
 		return false;
 	}
 
-	
 	public void clickOnRegisterForAffiliateAccount() {
-		
+
 		try {
 			registerForAffiliateAccountLink.click();
 			logger.info("Clicked on 'Register for Affiliate Account Link'.");
@@ -173,9 +165,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterCompanyName(String name) {
-		if(affiliateAccountExists == true) {
+		if (affiliateAccountExists == true) {
 			try {
 				companyName.sendKeys(name);
 				logger.info("Entered company name.");
@@ -187,23 +178,21 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterWebsite(String website) {
-		if(affiliateAccountExists == true) {
+		if (affiliateAccountExists == true) {
 			try {
 				companyWebsite.sendKeys(website);
 				logger.info("Website entered.");
 			} catch (NoSuchElementException e) {
 				logger.error(" -> Website skipped: Affliate account already exists.");
-			}	
+			}
 		} else {
 			logger.error(" -> Website skipped: Affliate account already exists.");
 		}
 	}
 
-	
 	public void enterTaxID(String taxID) {
-		if(affiliateAccountExists == true) {
+		if (affiliateAccountExists == true) {
 			try {
 				companyTaxID.sendKeys(taxID);
 				logger.info("Company ID entered.");
@@ -215,9 +204,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterPaymentMethod(String paymentMethod) {
-		if(affiliateAccountExists == true) {
+		if (affiliateAccountExists == true) {
 			try {
 				for (int i = 0; i < paymentMethods.size(); i++) {
 					if (paymentMethods.get(i).getText().contains(paymentMethod)) {
@@ -233,9 +221,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterChequePayeeName(String name) {
-		if(affiliateAccountExists == true) {
+		if (affiliateAccountExists == true) {
 			try {
 				chequePayeeName.sendKeys(name);
 				logger.info("Cheque payee name was entered.");
@@ -247,9 +234,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void checkAboutUsCheckbox() {
-		if(affiliateAccountExists == true) {
+		if (affiliateAccountExists == true) {
 			try {
 				agreeCheckbox.click();
 				logger.info("Agree checkbox selected.");
@@ -261,7 +247,6 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void clickOnContinueButton() {
 		try {
 			continueButton.click();
@@ -271,7 +256,6 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public boolean seeSuccessMessage() {
 		try {
 			if (alert.isDisplayed()) {
@@ -283,22 +267,20 @@ public class RetailPageObjects extends Base {
 		}
 		return false;
 	}
-	
 
 	public void clickOnEditYourAffiliateInfo() {
-		if(editYourAffiliateInfoLink.isDisplayed()) {
+		if (editYourAffiliateInfoLink.isDisplayed()) {
 			editYourAffiliateInfoLink.click();
 			logger.info("Clicked on 'Edit your Affliate Information' link.");
 		} else {
 			logger.error("'Edit your Affiliate Information' link was not displayed.");
 		}
 	}
-	
 
 	public void clickOnBankTransferRadioButton() {
 		for (int i = 0; i < paymentMethods.size(); i++) {
 			if (paymentMethods.get(i).getText().contains("Bank Transfer")) {
-				if(paymentMethods.get(i).isDisplayed()) {
+				if (paymentMethods.get(i).isDisplayed()) {
 					paymentMethods.get(i).click();
 					logger.info("Bank transfer radio button selected.");
 				} else {
@@ -308,9 +290,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterBankName(String name) {
-		if(bankName.isDisplayed()) {
+		if (bankName.isDisplayed()) {
 			bankName.clear();
 			bankName.sendKeys(name);
 			logger.info("Bank name entered.");
@@ -319,9 +300,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterABANumber(String number) {
-		if(branchNumber.isDisplayed()) {
+		if (branchNumber.isDisplayed()) {
 			branchNumber.clear();
 			branchNumber.sendKeys(number);
 			logger.info("Branch number was entered.");
@@ -330,9 +310,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterSwiftCode(String code) {
-		if(swiftCode.isDisplayed()) {
+		if (swiftCode.isDisplayed()) {
 			swiftCode.clear();
 			swiftCode.sendKeys(code);
 			logger.info("Swift code was entered.");
@@ -341,9 +320,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterAccountName(String name) {
-		if(accountName.isDisplayed()) {
+		if (accountName.isDisplayed()) {
 			accountName.clear();
 			accountName.sendKeys(name);
 			logger.info("Account name was entered.");
@@ -352,9 +330,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterAccountNumber(String number) {
-		if(accountNumber.isDisplayed()) {
+		if (accountNumber.isDisplayed()) {
 			accountNumber.clear();
 			accountNumber.sendKeys(number);
 			logger.info("Account number was entered.");
@@ -362,10 +339,9 @@ public class RetailPageObjects extends Base {
 			logger.error("Account number text box was not displayed.");
 		}
 	}
-	
 
 	public void clickOnEditYourAccountInfo() {
-		if(editYourAccountInfoLink.isDisplayed()) {
+		if (editYourAccountInfoLink.isDisplayed()) {
 			editYourAccountInfoLink.click();
 			logger.info("Clicked on 'Edit your Account Information' link.");
 		} else {
@@ -373,9 +349,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterFirstName(String name) {
-		if(firstName.isDisplayed()) {
+		if (firstName.isDisplayed()) {
 			firstName.clear();
 			firstName.sendKeys(name);
 			logger.info("Entered first name.");
@@ -384,9 +359,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterLastName(String name) {
-		if(lastName.isDisplayed()) {
+		if (lastName.isDisplayed()) {
 			lastName.clear();
 			lastName.sendKeys(name);
 			logger.info("Entered last name.");
@@ -395,9 +369,8 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public void enterTelephone(String phone) {
-		if(lastName.isDisplayed()) {
+		if (lastName.isDisplayed()) {
 			telephone.clear();
 			telephone.sendKeys(phone);
 			logger.info("Entered telephone number.");
@@ -406,7 +379,6 @@ public class RetailPageObjects extends Base {
 		}
 	}
 
-	
 	public boolean successMessageMatches() {
 		if (alert.getText().contains("Success: Your account has been successfully updated.")) {
 			tearDown();
