@@ -11,8 +11,6 @@ import org.openqa.selenium.support.PageFactory;
 import core.Base;
 
 public class LaptopsAndNotebooksPageObjects extends Base {
-	
-	WebDriver driver = super.driver;
 
 	public LaptopsAndNotebooksPageObjects() {
 		PageFactory.initElements(driver, this);
@@ -154,21 +152,51 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 	}
 
 	public void clickOnProductComparisonLink() {
-		if (productComparisonLink.isDisplayed()) {
-			productComparisonLink.click();
-			logger.info("Clicked on 'product comparison' link.");
-		} else {
-			logger.error("'product comparison' link was not dispayed.");
+
+		for (int j = 0; j <= 2; j++) {
+			try {
+				productComparisonLink.click();
+				logger.info("Clicked on 'product comparison' link.");
+
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
+
+//		if (productComparisonLink.isDisplayed()) {
+//			productComparisonLink.click();
+//			logger.info("Clicked on 'product comparison' link.");
+//		} else {
+//			logger.error("'product comparison' link was not dispayed.");
+//		}
 	}
 
 	public boolean productComparisonChartIsDisplayed() {
-		if (productComparisonChart.isDisplayed()) {
-			logger.info("'Product Comparison' chart was displayed.");
-			return true;
+
+		for (int j = 0; j <= 2; j++) {
+			try {
+				if (productComparisonChart.isDisplayed()) {
+					logger.info("'Product Comparison' chart was displayed.");
+					return true;
+				}
+
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
 		logger.error("'Product Comparison' chart was not displayed.");
 		return false;
+
+//		if (productComparisonChart.isDisplayed()) {
+//			logger.info("'Product Comparison' chart was displayed.");
+//			return true;
+//		}
+//		logger.error("'Product Comparison' chart was not displayed.");
+//		return false;
 	}
 
 	public void addProductToWishList(String product) {
@@ -185,11 +213,27 @@ public class LaptopsAndNotebooksPageObjects extends Base {
 	}
 
 	public boolean priceTagIsDisplayed(String price) {
-		if (this.priceTag.getText().equalsIgnoreCase(price)) {
-			logger.info("Price tag was dispayed.");
-			return true;
+
+		for (int j = 0; j <= 2; j++) {
+			try {
+				if (this.priceTag.getText().equalsIgnoreCase(price)) {
+					logger.info("Price tag was dispayed.");
+					return true;
+				}
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
 		logger.error("Price tag was not dispayed or was incorrect.");
 		return false;
+
+//		if (this.priceTag.getText().equalsIgnoreCase(price)) {
+//			logger.info("Price tag was dispayed.");
+//			return true;
+//		}
+//		logger.error("Price tag was not dispayed or was incorrect.");
+//		return false;
 	}
 }

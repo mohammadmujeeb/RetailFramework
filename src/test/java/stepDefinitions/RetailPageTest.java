@@ -32,7 +32,7 @@ public class RetailPageTest extends Base {
 			String screenshotName = scenario.getName().replaceAll(" ", "_");
 			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 			scenario.attach(sourcePath, "image/png", screenshotName);
-		}
+		} 
 	}
 
 	// step definitions

@@ -14,8 +14,6 @@ import core.Base;
 
 public class DesktopsPageObjects extends Base {
 
-	WebDriver driver = super.driver;
-	
 	public DesktopsPageObjects() {
 		PageFactory.initElements(driver, this);
 	}
@@ -110,69 +108,156 @@ public class DesktopsPageObjects extends Base {
 	}
 
 	public void clickOnAddToCartLink(String product) {
-		for (int i = 0; i < productsOnDesktopPage.size(); i++) {
-			if (productsOnDesktopPage.get(i).getText().equalsIgnoreCase(product)) {
-				if (productsOnDesktopPage.get(i).isDisplayed()) {
-					addToCartLinks.get(i).click();
-					logger.info(product + " was added to the cart.");
-				} else {
-					logger.error(product + " could not be added to the cart.");
+
+		for (int j = 0; j <= 2; j++) {
+			try {
+				for (int i = 0; i < productsOnDesktopPage.size(); i++) {
+					if (productsOnDesktopPage.get(i).getText().equalsIgnoreCase(product)) {
+						addToCartLinks.get(i).click();
+						logger.info(product + " was added to the cart.");
+						break;
+					}
 				}
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
 			}
 		}
+
+//		for (int i = 0; i < productsOnDesktopPage.size(); i++) {
+//			if (productsOnDesktopPage.get(i).getText().equalsIgnoreCase(product)) {
+//				if (productsOnDesktopPage.get(i).isDisplayed()) {
+//					addToCartLinks.get(i).click();
+//					logger.info(product + " was added to the cart.");
+//				} else {
+//					logger.error(product + " could not be added to the cart.");
+//				}
+//			}
+//		}
+
 	}
 
 	public void enterProductQuantity(String quantity) {
-		if (productQuantity.isDisplayed()) {
-			productQuantity.clear();
-			productQuantity.sendKeys(quantity);
-			logger.info(quantity + " quantities was added to the cart.");
-		} else {
-			logger.error("Quantity field was not displayed.");
+		for (int j = 0; j <= 2; j++) {
+			try {
+				productQuantity.clear();
+				productQuantity.sendKeys(quantity);
+				logger.info(quantity + " quantities was added to the cart.");
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
+
+//		if (productQuantity.isDisplayed()) {
+//			productQuantity.clear();
+//			productQuantity.sendKeys(quantity);
+//			logger.info(quantity + " quantities was added to the cart.");
+//		} else {
+//			logger.error("Quantity field was not displayed.");
+//		}
 
 	}
 
 	public void clickOnAddToCartButton() {
-		if (addToCartButton.isDisplayed()) {
-			addToCartButton.click();
-			logger.info("Clicked on 'Add to Cart' button.");
-		} else {
-			logger.error("'Add to Cart' button was not displayed.");
+		for (int j = 0; j <= 2; j++) {
+			try {
+				addToCartButton.click();
+				logger.info("Clicked on 'Add to Cart' button.");
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
+
+//		if (addToCartButton.isDisplayed()) {
+//			addToCartButton.click();
+//			logger.info("Clicked on 'Add to Cart' button.");
+//		} else {
+//			logger.error("'Add to Cart' button was not displayed.");
+//		}
 	}
 
 	public boolean successAlertIsDisplayed(String successMessage) {
 
-		String message = "";
-		for (int i = 0; i < successAlert.getText().length() - 2; i++) {
-			message += successAlert.getText().charAt(i);
-		}
-		if (message.equals(successMessage)) {
-			logger.info("Success message was displayed.");
-			return true;
+		for (int j = 0; j <= 2; j++) {
+			try {
+				String message = "";
+				for (int i = 0; i < successAlert.getText().length() - 2; i++) {
+					message += successAlert.getText().charAt(i);
+				}
+				if (message.equals(successMessage)) {
+					logger.info("Success message was displayed and matches.");
+					return true;
+				}
+
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
 		logger.error("Success message was not displayed or is incorrect.");
 		return false;
+
+//		String message = "";
+//
+//		
+//		for (int i = 0; i < successAlert.getText().length() - 2; i++) {
+//			message += successAlert.getText().charAt(i);
+//		}
+//		if (message.equals(successMessage)) {
+//			logger.info("Success message was displayed and matches.");
+//			return true;
+//		}
+//		logger.error("Success message was not displayed or is incorrect.");
+//		return false;
 	}
 
 	public void selectProductColor(String color) {
 		Select object = new Select(colorDropdown);
-		if (colorDropdown.isDisplayed()) {
-			object.selectByVisibleText(color);
-			logger.info(color + " color was selected.");
-		} else {
-			logger.error("Color dropdown was not displayed.");
+
+		for (int j = 0; j <= 2; j++) {
+			try {
+				object.selectByVisibleText(color);
+				logger.info(color + " color was selected.");
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
+
+//		Select object = new Select(colorDropdown);
+//		if (colorDropdown.isDisplayed()) {
+//			object.selectByVisibleText(color);
+//			logger.info(color + " color was selected.");
+//		} else {
+//			logger.error("Color dropdown was not displayed.");
+//		}
 	}
 
 	public void clickOnWriteAReviewLink() {
-		if (writeAReview.isDisplayed()) {
-			writeAReview.click();
-			logger.info("Clicked on 'Write a Review' link.");
-		} else {
-			logger.error("'Write a Review' link was not displayed.");
+		for (int j = 0; j <= 2; j++) {
+			try {
+				writeAReview.click();
+				logger.info("Clicked on 'Write a Review' link.");
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
+
+//		if (writeAReview.isDisplayed()) {
+//			writeAReview.click();
+//			logger.info("Clicked on 'Write a Review' link.");
+//		} else {
+//			logger.error("'Write a Review' link was not displayed.");
+//		}
 	}
 
 	public void writeAReview(String name, String review, String rating) {
@@ -213,12 +298,29 @@ public class DesktopsPageObjects extends Base {
 	}
 
 	public boolean thankYouMessageIsDisplayed() {
-		if (thankYouMessage.getText()
-				.contains("Thank you for your review. It has been submitted to the webmaster for approval.")) {
-			logger.info("Thank you message was displayed.");
-			return true;
+
+		for (int j = 0; j <= 2; j++) {
+			try {
+				if (thankYouMessage.getText()
+						.contains("Thank you for your review. It has been submitted to the webmaster for approval.")) {
+					logger.info("Thank you message was displayed.");
+					return true;
+				}
+			} catch (Exception e) {
+				logger.error(e.getMessage());
+				logger.info("Try # " + j + 1 + ": refreshed the webpage.");
+				driver.navigate().refresh();
+			}
 		}
 		logger.error("Thank you message was not displayed.");
 		return false;
+
+//		if (thankYouMessage.getText()
+//				.contains("Thank you for your review. It has been submitted to the webmaster for approval.")) {
+//			logger.info("Thank you message was displayed.");
+//			return true;
+//		}
+//		logger.error("Thank you message was not displayed.");
+//		return false;
 	}
 }

@@ -1,0 +1,112 @@
+2021/05/20 03:49:58 [main] ERROR RetailPageObjects -  -> Checkbox selection skipped: Affliate account already exists.
+2021/05/20 03:50:28 [main] ERROR RetailPageObjects -  -> 'Continue' button skipped: Affliate account already exists.
+2021/05/20 03:50:58 [main] ERROR RetailPageObjects - Success message was not displayed.
+2021/05/20 03:51:02 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 03:51:02 [main] INFO  RetailPageObjects - Clicked on 'My Account' tab.
+2021/05/20 03:51:03 [main] INFO  RetailPageObjects - Clicked on 'Login' menu.
+2021/05/20 03:51:03 [main] INFO  RetailPageObjects - Entered email address.
+2021/05/20 03:51:03 [main] INFO  RetailPageObjects - Password was entered.
+2021/05/20 03:51:04 [main] INFO  RetailPageObjects - Clicked on 'Login' button.
+2021/05/20 03:51:04 [main] INFO  RetailPageObjects - Dashboard was displayed.
+2021/05/20 03:51:05 [main] INFO  RetailPageObjects - Clicked on 'Edit your Affliate Information' link.
+2021/05/20 03:51:05 [main] INFO  RetailPageObjects - Bank name entered.
+2021/05/20 03:51:05 [main] INFO  RetailPageObjects - Branch number was entered.
+2021/05/20 03:51:05 [main] INFO  RetailPageObjects - Swift code was entered.
+2021/05/20 03:51:05 [main] INFO  RetailPageObjects - Account name was entered.
+2021/05/20 03:51:05 [main] INFO  RetailPageObjects - Account number was entered.
+2021/05/20 03:51:06 [main] INFO  RetailPageObjects - Clicked on 'Continue' button.
+2021/05/20 03:51:06 [main] INFO  RetailPageObjects - Success message is displayed.
+2021/05/20 03:51:11 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 03:51:11 [main] INFO  RetailPageObjects - Clicked on 'My Account' tab.
+2021/05/20 03:51:11 [main] INFO  RetailPageObjects - Clicked on 'Login' menu.
+2021/05/20 03:51:11 [main] INFO  RetailPageObjects - Entered email address.
+2021/05/20 03:51:11 [main] INFO  RetailPageObjects - Password was entered.
+2021/05/20 03:51:12 [main] INFO  RetailPageObjects - Clicked on 'Login' button.
+2021/05/20 03:51:12 [main] INFO  RetailPageObjects - Dashboard was displayed.
+2021/05/20 03:51:13 [main] INFO  RetailPageObjects - Clicked on 'Edit your Account Information' link.
+2021/05/20 03:51:13 [main] INFO  RetailPageObjects - Entered first name.
+2021/05/20 03:51:13 [main] INFO  RetailPageObjects - Entered last name.
+2021/05/20 03:51:14 [main] INFO  RetailPageObjects - Entered email address.
+2021/05/20 03:51:14 [main] INFO  RetailPageObjects - Entered telephone number.
+2021/05/20 03:51:14 [main] INFO  RetailPageObjects - Clicked on 'Continue' button.
+2021/05/20 03:51:14 [main] INFO  RetailPageObjects - Success message was displayed.
+2021/05/20 04:01:23 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:01:23 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 04:01:23 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 04:01:23 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 04:01:24 [main] INFO  DesktopsPageObjects - All items were displayed.
+2021/05/20 04:01:27 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:01:27 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 04:01:27 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 04:01:28 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 04:01:28 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 04:01:28 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 04:01:28 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 04:01:30 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 04:01:30 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 04:04:38 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:04:38 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 04:04:38 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 04:04:39 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 04:04:39 [main] INFO  DesktopsPageObjects - All items were displayed.
+2021/05/20 04:04:42 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:04:42 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 04:04:42 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 04:04:43 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 04:04:43 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 04:04:43 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 04:04:43 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 04:04:45 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 04:04:45 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 04:06:18 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:06:18 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 04:06:18 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 04:06:19 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 04:06:19 [main] INFO  DesktopsPageObjects - All items were displayed.
+2021/05/20 04:06:22 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:06:22 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 04:06:22 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 04:06:23 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 04:06:23 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 04:06:23 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 04:06:24 [main] ERROR DesktopsPageObjects - stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mujeebs-MacBook-Pro.local', ip: 'fe80:0:0:0:7f:79ff:253c:b372%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/p_/bqpx96qs10q...}, goog:chromeOptions: {debuggerAddress: localhost:60500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c376d5845effa2650d1793610f0bde9
+2021/05/20 04:06:24 [main] INFO  DesktopsPageObjects - Try # 21: refreshed the webpage.
+2021/05/20 04:06:25 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 04:06:25 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 04:06:27 [main] INFO  DesktopsPageObjects - Success message was displayed.
+2021/05/20 04:06:30 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:06:30 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 04:06:30 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 04:06:30 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 04:06:31 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/20 04:06:31 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/20 04:06:31 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/20 04:06:32 [main] INFO  DesktopsPageObjects - Red color was selected.
+2021/05/20 04:06:32 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 04:06:32 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 04:06:34 [main] INFO  DesktopsPageObjects - Success message was displayed.
+2021/05/20 04:06:37 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:06:37 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 04:06:37 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 04:06:38 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 04:06:39 [main] INFO  DesktopsPageObjects - Canon EOS 5D was selected.
+2021/05/20 04:07:09 [main] INFO  DesktopsPageObjects - Clicked on 'Write a Review' link.
+2021/05/20 04:07:09 [main] INFO  DesktopsPageObjects - Entered reviewer name in 'Your Name' field.
+2021/05/20 04:07:09 [main] INFO  DesktopsPageObjects - Entered review text in 'Your Review' field.
+2021/05/20 04:07:09 [main] INFO  DesktopsPageObjects - 'Rating' radio button was selected.
+2021/05/20 04:07:10 [main] INFO  DesktopsPageObjects - Clicked on 'Continue' button.
+2021/05/20 04:07:10 [main] INFO  DesktopsPageObjects - Thank you message was displayed.
+2021/05/20 04:07:13 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 04:07:13 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.
+2021/05/20 04:07:14 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Show All Laptops & Notebooks' menu.
+2021/05/20 04:07:15 [main] INFO  LaptopsAndNotebooksPageObjects - MacBook was selected.
+2021/05/20 04:07:45 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 04:07:45 [main] ERROR LaptopsAndNotebooksPageObjects - Success message was not displayed or is incorrect.
+2021/05/20 04:07:45 [main] ERROR LaptopsAndNotebooksPageObjects - Cart total was not displayed or is incorrect.

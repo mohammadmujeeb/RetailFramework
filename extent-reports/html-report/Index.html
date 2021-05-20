@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Retail Website Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 20, 2021 02:54:01 AM</span></a>
+<a href="#"><span class="badge badge-primary">May 20, 2021 05:20:12 AM</span></a>
 </li>
 </ul>
 </div>
@@ -57,11 +57,6 @@
 <span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
-<li class="nav-item dropdown" onclick="toggleView('exception-view')">
-<a id="nav-exception" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bug"></i></span>
-</a>
-</li>
 </ul>
 </div>
 </div>      <div class="vcontainer">
@@ -71,25 +66,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 20, 2021 02:54:01 AM</h3>
+<h3>May 20, 2021 05:20:12 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 20, 2021 02:59:01 AM</h3>
+<h3>May 20, 2021 05:25:50 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>2</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -105,12 +100,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='66%'>
-<b>2</b> features passed
+<div><small data-tooltip='100%'>
+<b>3</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='33%'><b>1</b> features failed,
+<small data-tooltip='0%'><b>0</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -128,9 +123,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='90%'><b>10</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>11</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='9%'><b>1</b> scenarios failed,
+<small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -148,10 +143,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='97%'><b>86</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>87</b> steps passed</small></div>
 <div>
-<small data-tooltip='1%'><b>1</b> steps failed,
-<b>1</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -167,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"Desktops Feature":114.618,"Laptop & Notebooks Feature":79.207,"Retail Page Feature (for this feature you have to have an existing account)":105.356
+"Desktops Feature":87.333,"Laptop & Notebooks Feature":141.547,"Retail Page Feature (for this feature you have to have an existing account)":107.953
 };
 </script>
 <div class="row">
@@ -177,7 +172,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@DesktopsFeature</td>
+<td>@LaptopsAndNotebooksFeature</td>
 <td>4</td>
 <td>0</td>
 <td>0</td>
@@ -185,12 +180,12 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>@LaptopsAndNotebooksFeature</td>
-<td>3</td>
-<td>1</td>
+<td>@DesktopsFeature</td>
+<td>4</td>
 <td>0</td>
 <td>0</td>
-<td>75%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
 <td>@RetailFeature</td>
@@ -231,21 +226,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
-failParent: 1,
+passParent: 3,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 10,
-failChild: 1,
+passChild: 11,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 86,
-failGrandChild: 1,
+passGrandChild: 87,
+failGrandChild: 0,
 warningGrandChild: 0,
-skipGrandChild: 1,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -260,7 +255,6 @@ eventsCount: 5,
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -268,7 +262,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@DesktopsFeature</a><a class="dropdown-item" href="#">@LaptopsAndNotebooksFeature</a><a class="dropdown-item" href="#">@RetailFeature</a>
+<a class="dropdown-item" href="#">@LaptopsAndNotebooksFeature</a><a class="dropdown-item" href="#">@DesktopsFeature</a><a class="dropdown-item" href="#">@RetailFeature</a>
 </ul>
 </li>
 </ul>
@@ -281,7 +275,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Desktops Feature</p>
             <p class="text-sm">
-              <span>02:54:02 AM</span> / <span>00:01:54:618</span>
+              <span>05:20:13 AM</span> / <span>00:01:27:333</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -290,9 +284,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Desktops Feature</h5>
-<span class='badge badge-success'>05.20.2021 02:54:02</span>
-<span class='badge badge-danger'>05.20.2021 02:55:57</span>
-<span class='badge badge-default'>00:01:54:618</span>
+<span class='badge badge-success'>05.20.2021 05:20:13</span>
+<span class='badge badge-danger'>05.20.2021 05:21:40</span>
+<span class='badge badge-default'>00:01:27:333</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -488,25 +482,25 @@ eventsCount: 5,
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="38"
+        <li class="test-item"  status="pass" test-id="38"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Laptop & Notebooks Feature</p>
             <p class="text-sm">
-              <span>02:55:57 AM</span> / <span>00:01:19:207</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>05:21:40 AM</span> / <span>00:02:21:547</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Laptop & Notebooks Feature</h5>
-<span class='badge badge-success'>05.20.2021 02:55:57</span>
-<span class='badge badge-danger'>05.20.2021 02:57:16</span>
-<span class='badge badge-default'>00:01:19:207</span>
+<h5 class="test-status text-pass">Laptop & Notebooks Feature</h5>
+<span class='badge badge-success'>05.20.2021 05:21:40</span>
+<span class='badge badge-danger'>05.20.2021 05:24:02</span>
+<span class='badge badge-default'>00:02:21:547</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -577,13 +571,10 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="51"><span class="badge log fail-bg mr-2">Fail</span>Product Comparison</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="51"><span class="badge log pass-bg mr-2">Pass</span>Product Comparison</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="stepDefinitions.DesktopsTest.user_is_on_retail_website()">
                 <span>Given User is on Retail website</span>
@@ -615,55 +606,13 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="stepDefinitions.LaptopsAndNotebooksTest.user_click_on_product_comparison_link()">
+              <div class="step pass-bg" title="stepDefinitions.LaptopsAndNotebooksTest.user_click_on_product_comparison_link()">
                 <span>And User click on Product Comparison link</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=90.0.4430.212)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mujeebs-MacBook-Pro.local', ip: 'fe80:0:0:0:7f:79ff:253c:b372%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/p_/bqpx96qs10q...}, goog:chromeOptions: {debuggerAddress: localhost:57972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy34.click(Unknown Source)
-	at pageObjects.LaptopsAndNotebooksPageObjects.clickOnProductComparisonLink(LaptopsAndNotebooksPageObjects.java:158)
-	at stepDefinitions.LaptopsAndNotebooksTest.user_click_on_product_comparison_link(LaptopsAndNotebooksTest.java:113)
-	at ✽.User click on Product Comparison link(file:///Users/mohammadmujeeb/Documents/GitHub/GitDemo/RetailFramework/src/test/resources/features/laptopsAndNoteBooksFeature.feature:24)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.LaptopsAndNotebooksTest.user_should_see_product_comparison_chart()">
+              <div class="step pass-bg" title="stepDefinitions.LaptopsAndNotebooksTest.user_should_see_product_comparison_chart()">
                 <span>Then User should see Product Comparison chart</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step pass-bg" title="AFTER">
-                <span>stepDefinitions.RetailPageTest.tearDown(io.cucumber.java.Scenario)</span>
-      <div>Product_Comparison
-          <div class="row mb-3"><div class="col-md-3">
-    <img data-featherlight='../embedded1.png' src="../embedded1.png">
-    
-    </div></div>
-</div>
       <div>
       </div>
               </div>
@@ -752,7 +701,7 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
           <div class="test-detail">
             <p class="name">Retail Page Feature (for this feature you have to have an existing account)</p>
             <p class="text-sm">
-              <span>02:57:16 AM</span> / <span>00:01:45:356</span>
+              <span>05:24:02 AM</span> / <span>00:01:47:953</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -761,9 +710,9 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Retail Page Feature (for this feature you have to have an existing account)</h5>
-<span class='badge badge-success'>05.20.2021 02:57:16</span>
-<span class='badge badge-danger'>05.20.2021 02:59:01</span>
-<span class='badge badge-default'>00:01:45:356</span>
+<span class='badge badge-success'>05.20.2021 05:24:02</span>
+<span class='badge badge-danger'>05.20.2021 05:25:50</span>
+<span class='badge badge-default'>00:01:47:953</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=75</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -1009,6 +958,72 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 <span class="meta">
 <span class='badge log pass-bg'>4</span>
 </span>
+<p class="name">@LaptopsAndNotebooksFeature</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LaptopsAndNotebooksFeature</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:21:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='39'>Add and Remove a Mac book from Cart</a>
+<div class="">
+<span class="badge badge-default">Laptop & Notebooks Feature.Add and Remove a Mac book from Cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:22:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='51'>Product Comparison</a>
+<div class="">
+<span class="badge badge-default">Laptop & Notebooks Feature.Product Comparison</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:23:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='61'>Adding an item to Wish list</a>
+<div class="">
+<span class="badge badge-default">Laptop & Notebooks Feature.Adding an item to Wish list</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:23:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='68'>Validate the price of MacBook Pro is 2000</a>
+<div class="">
+<span class="badge badge-default">Laptop & Notebooks Feature.Validate the price of MacBook Pro is 2000</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
 <p class="name">@DesktopsFeature</p>
 <p class="duration text-sm">4 tests</p>
 </div>
@@ -1028,7 +1043,7 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>02:54:02 AM</td>
+<td>05:20:13 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>User verify all items are present in Desktops tab</a>
 <div class="">
@@ -1038,7 +1053,7 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>02:54:07 AM</td>
+<td>05:20:18 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='8'>User add HP LP 3065 from Desktops tab to the cart</a>
 <div class="">
@@ -1048,7 +1063,7 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>02:54:44 AM</td>
+<td>05:20:57 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='17'>User add Canon EOS 5D from Desktops tab to the cart</a>
 <div class="">
@@ -1058,79 +1073,11 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>02:55:21 AM</td>
+<td>05:21:04 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='28'>User add a review to Canon EOS 5D item in Desktops tab</a>
 <div class="">
 <span class="badge badge-default">Desktops Feature.User add a review to Canon EOS 5D item in Desktops tab</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>3</span>
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">@LaptopsAndNotebooksFeature</p>
-<p class="duration text-sm">4 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@LaptopsAndNotebooksFeature</h4>
-<span status="pass" class='badge log pass-bg'>3 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>02:55:57 AM</td>
-<td>
-<a href="#" class="linked" test-id='38' id='39'>Add and Remove a Mac book from Cart</a>
-<div class="">
-<span class="badge badge-default">Laptop & Notebooks Feature.Add and Remove a Mac book from Cart</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>02:56:32 AM</td>
-<td>
-<a href="#" class="linked" test-id='38' id='51'>Product Comparison</a>
-<div class="">
-<span class="badge badge-default">Laptop & Notebooks Feature.Product Comparison</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>02:56:37 AM</td>
-<td>
-<a href="#" class="linked" test-id='38' id='61'>Adding an item to Wish list</a>
-<div class="">
-<span class="badge badge-default">Laptop & Notebooks Feature.Adding an item to Wish list</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>02:56:41 AM</td>
-<td>
-<a href="#" class="linked" test-id='38' id='68'>Validate the price of MacBook Pro is 2000</a>
-<div class="">
-<span class="badge badge-default">Laptop & Notebooks Feature.Validate the price of MacBook Pro is 2000</span>
 </div>
 </td>
 </tr>
@@ -1162,7 +1109,7 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>02:57:16 AM</td>
+<td>05:24:02 AM</td>
 <td>
 <a href="#" class="linked" test-id='75' id='77'>Register as an Affiliate user with Cheque Payment Method</a>
 <div class="">
@@ -1172,7 +1119,7 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>02:58:50 AM</td>
+<td>05:25:37 AM</td>
 <td>
 <a href="#" class="linked" test-id='75' id='91'>Edit your affiliate information from Cheque payment method to Bank Transfer</a>
 <div class="">
@@ -1182,63 +1129,11 @@ Session ID: b769a6fb85c6a9aafc8cf4a0f414f073
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>02:58:55 AM</td>
+<td>05:25:43 AM</td>
 <td>
 <a href="#" class="linked" test-id='75' id='105'>Edit your account Information</a>
 <div class="">
 <span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your account Information</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div><div class="test-wrapper row view exception-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.StaleElementReferenceException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>02:56:36 AM</td>
-<td>
-<a href="#" class="linked" test-id='38' id='58'>And User click on Product Comparison link</a>
-<div class="">
-<span class="badge badge-default">Laptop & Notebooks Feature.Product Comparison.And User click on Product Comparison link</span>
 </div>
 </td>
 </tr>

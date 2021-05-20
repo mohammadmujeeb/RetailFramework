@@ -15,8 +15,6 @@ public class RetailPageObjects extends Base {
 
 	boolean affiliateAccountExists;
 
-	WebDriver driver = super.driver;
-
 	public RetailPageObjects() {
 		PageFactory.initElements(driver, this);
 	}
