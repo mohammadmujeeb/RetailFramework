@@ -82,7 +82,7 @@ public class DesktopsTest extends Base {
 	public void user_should_see_all_items_are_present_in_desktop_page() throws Throwable {
 		desktopPageObjects = new DesktopsPageObjects();
 		desktopPageObjects.allItemsDisplayed();
-		tearDown();
+		//tearDown();
 	}
 
 	@Then("^User should see a message ‘Success: you have added \"([^\"]*)\" to your shopping cart!’$")
@@ -91,7 +91,7 @@ public class DesktopsTest extends Base {
 		String successMessage = "Success: You have added " + strArg1 + " to your shopping cart!";
 		desktopPageObjects = new DesktopsPageObjects();
 		desktopPageObjects.successAlertIsDisplayed(successMessage);
-		tearDown();
+		//tearDown();
 	}
 
 	@Then("^User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.'$")
@@ -99,7 +99,7 @@ public class DesktopsTest extends Base {
 			throws Throwable {
 		desktopPageObjects = new DesktopsPageObjects();
 		desktopPageObjects.thankYouMessageIsDisplayed();
-		tearDown();
+		//tearDown();
 	}
 
 }

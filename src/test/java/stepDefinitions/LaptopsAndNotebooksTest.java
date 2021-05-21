@@ -35,7 +35,7 @@ public class LaptopsAndNotebooksTest extends Base {
 	public void item_should_be_removed_and_cart_should_show_something(String strArg1) throws Throwable {
 		laptopsAndNotebooksPageObjects = new LaptopsAndNotebooksPageObjects();
 		laptopsAndNotebooksPageObjects.cartTotalIsDisplayed(strArg1);
-		tearDown();
+		//tearDown();
 	}
 
 	@Then("^User should see a message ‘Success: You have added \"([^\"]*)\" to your product comparison!’$")
@@ -50,7 +50,7 @@ public class LaptopsAndNotebooksTest extends Base {
 	public void user_should_see_product_comparison_chart() throws Throwable {
 		laptopsAndNotebooksPageObjects = new LaptopsAndNotebooksPageObjects();
 		laptopsAndNotebooksPageObjects.productComparisonChartIsDisplayed();
-		tearDown();
+		//tearDown();
 	}
 
 	@Then("^User should get a message ‘You must login or create an account to save \"([^\"]*)\" to your wish list!’$")
@@ -59,14 +59,14 @@ public class LaptopsAndNotebooksTest extends Base {
 		String message = "You must login or create an account to save " + strArg1 + "to your wish list!";
 		laptopsAndNotebooksPageObjects = new LaptopsAndNotebooksPageObjects();
 		laptopsAndNotebooksPageObjects.alertMessageIsDisplayed(message);
-		tearDown();
+		//tearDown();
 	}
 
 	@Then("^User should see \"([^\"]*)\" price tag is present on UI.$")
 	public void user_should_see_something_price_tag_is_present_on_ui(String strArg1) throws Throwable {
 		laptopsAndNotebooksPageObjects = new LaptopsAndNotebooksPageObjects();
 		laptopsAndNotebooksPageObjects.priceTagIsDisplayed(strArg1);
-		tearDown();
+		//tearDown();
 	}
 
 	@And("^User clicks on \"([^\"]*)\" item$")

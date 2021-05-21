@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Retail Website Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 20, 2021 05:20:12 AM</span></a>
+<a href="#"><span class="badge badge-primary">May 21, 2021 12:59:30 AM</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 20, 2021 05:20:12 AM</h3>
+<h3>May 21, 2021 12:59:30 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 20, 2021 05:25:50 AM</h3>
+<h3>May 21, 2021 01:04:54 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -143,7 +143,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>87</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>98</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"Desktops Feature":87.333,"Laptop & Notebooks Feature":141.547,"Retail Page Feature (for this feature you have to have an existing account)":107.953
+"Desktops Feature":64.043,"Laptop & Notebooks Feature":149.388,"Retail Page Feature (for this feature you have to have an existing account)":110.355
 };
 </script>
 <div class="row">
@@ -171,6 +171,14 @@ var timeline = {
 <div class="card-header"><p>Tags</p></div>
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@RetailFeature</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
 <tr>
 <td>@LaptopsAndNotebooksFeature</td>
 <td>4</td>
@@ -182,14 +190,6 @@ var timeline = {
 <tr>
 <td>@DesktopsFeature</td>
 <td>4</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@RetailFeature</td>
-<td>3</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -237,7 +237,7 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 87,
+passGrandChild: 98,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -262,7 +262,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@LaptopsAndNotebooksFeature</a><a class="dropdown-item" href="#">@DesktopsFeature</a><a class="dropdown-item" href="#">@RetailFeature</a>
+<a class="dropdown-item" href="#">@RetailFeature</a><a class="dropdown-item" href="#">@LaptopsAndNotebooksFeature</a><a class="dropdown-item" href="#">@DesktopsFeature</a>
 </ul>
 </li>
 </ul>
@@ -275,7 +275,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Desktops Feature</p>
             <p class="text-sm">
-              <span>05:20:13 AM</span> / <span>00:01:27:333</span>
+              <span>00:59:30 AM</span> / <span>00:01:04:043</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -284,9 +284,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Desktops Feature</h5>
-<span class='badge badge-success'>05.20.2021 05:20:13</span>
-<span class='badge badge-danger'>05.20.2021 05:21:40</span>
-<span class='badge badge-default'>00:01:27:333</span>
+<span class='badge badge-success'>05.21.2021 00:59:30</span>
+<span class='badge badge-danger'>05.21.2021 01:00:34</span>
+<span class='badge badge-default'>00:01:04:043</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -297,6 +297,9 @@ eventsCount: 5,
     <div class="card-header" role="tab">
       <div class="card-title">
         <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User verify all items are present in Desktops tab</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="collapse">
@@ -321,13 +324,27 @@ eventsCount: 5,
       <div>
       </div>
               </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>User_verify_all_items_are_present_in_Desktops_tab
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded1.png' src="../embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
           </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>User add HP LP 3065 from Desktops tab to the cart</div>
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>User add HP LP 3065 from Desktops tab to the cart</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="collapse">
@@ -367,13 +384,27 @@ eventsCount: 5,
       <div>
       </div>
               </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>User_add_HP_LP_3065_from_Desktops_tab_to_the_cart
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded2.png' src="../embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
           </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>User add Canon EOS 5D from Desktops tab to the cart</div>
+        <div class="node" id="21"><span class="badge log pass-bg mr-2">Pass</span>User add Canon EOS 5D from Desktops tab to the cart</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="collapse">
@@ -418,20 +449,37 @@ eventsCount: 5,
       <div>
       </div>
               </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>User_add_Canon_EOS_5D_from_Desktops_tab_to_the_cart
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded3.png' src="../embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
           </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>User add a review to Canon EOS 5D item in Desktops tab</div>
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>User add a review to Canon EOS 5D item in Desktops tab</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>User add a review to Canon EOS 5D item in Desktops tab</div>
+                  <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>User add a review to Canon EOS 5D item in Desktops tab</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -475,6 +523,17 @@ eventsCount: 5,
       <div>
       </div>
                   </div>
+                  <div class="step pass-bg">
+                    <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>User_add_a_review_to_Canon_EOS_5D_item_in_Desktops_tab
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded4.png' src="../embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
               </div>
             </div>
         </div>
@@ -482,14 +541,14 @@ eventsCount: 5,
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="38"
+        <li class="test-item"  status="pass" test-id="46"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Laptop & Notebooks Feature</p>
             <p class="text-sm">
-              <span>05:21:40 AM</span> / <span>00:02:21:547</span>
+              <span>01:00:34 AM</span> / <span>00:02:29:388</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -498,10 +557,10 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Laptop & Notebooks Feature</h5>
-<span class='badge badge-success'>05.20.2021 05:21:40</span>
-<span class='badge badge-danger'>05.20.2021 05:24:02</span>
-<span class='badge badge-default'>00:02:21:547</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span class='badge badge-success'>05.21.2021 01:00:34</span>
+<span class='badge badge-danger'>05.21.2021 01:03:04</span>
+<span class='badge badge-default'>00:02:29:388</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
 </div>
@@ -510,7 +569,10 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="39"><span class="badge log pass-bg mr-2">Pass</span>Add and Remove a Mac book from Cart</div>
+        <div class="node" id="47"><span class="badge log pass-bg mr-2">Pass</span>Add and Remove a Mac book from Cart</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="collapse">
@@ -565,13 +627,27 @@ eventsCount: 5,
       <div>
       </div>
               </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>Add_and_Remove_a_Mac_book_from_Cart
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded5.png' src="../embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
           </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="51"><span class="badge log pass-bg mr-2">Pass</span>Product Comparison</div>
+        <div class="node" id="61"><span class="badge log pass-bg mr-2">Pass</span>Product Comparison</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="collapse">
@@ -616,13 +692,27 @@ eventsCount: 5,
       <div>
       </div>
               </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>Product_Comparison
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded6.png' src="../embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
           </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="61"><span class="badge log pass-bg mr-2">Pass</span>Adding an item to Wish list</div>
+        <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Adding an item to Wish list</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="collapse">
@@ -652,13 +742,27 @@ eventsCount: 5,
       <div>
       </div>
               </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>Adding_an_item_to_Wish_list
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded7.png' src="../embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
           </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="68"><span class="badge log pass-bg mr-2">Pass</span>Validate the price of MacBook Pro is 2000</div>
+        <div class="node" id="82"><span class="badge log pass-bg mr-2">Pass</span>Validate the price of MacBook Pro is 2000</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="collapse">
@@ -688,20 +792,31 @@ eventsCount: 5,
       <div>
       </div>
               </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>Validate_the_price_of_MacBook_Pro_is_2000
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded8.png' src="../embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
           </div>
         </div>
   </div>
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="75"
+        <li class="test-item"  status="pass" test-id="91"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Retail Page Feature (for this feature you have to have an existing account)</p>
             <p class="text-sm">
-              <span>05:24:02 AM</span> / <span>00:01:47:953</span>
+              <span>01:03:04 AM</span> / <span>00:01:50:355</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -710,10 +825,10 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Retail Page Feature (for this feature you have to have an existing account)</h5>
-<span class='badge badge-success'>05.20.2021 05:24:02</span>
-<span class='badge badge-danger'>05.20.2021 05:25:50</span>
-<span class='badge badge-default'>00:01:47:953</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=75</span>
+<span class='badge badge-success'>05.21.2021 01:03:04</span>
+<span class='badge badge-danger'>05.21.2021 01:04:54</span>
+<span class='badge badge-default'>00:01:50:355</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=91</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
 </div>
@@ -722,14 +837,20 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="76"><span class="badge log pass-bg mr-2">Pass</span>Register as an Affiliate user with Cheque Payment Method</div>
+        <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>Register as an Affiliate user with Cheque Payment Method</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="77"><span class="badge log pass-bg mr-2">Pass</span>Register as an Affiliate user with Cheque Payment Method</div>
+                  <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>Register as an Affiliate user with Cheque Payment Method</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -788,6 +909,17 @@ eventsCount: 5,
       <div>
       </div>
                   </div>
+                  <div class="step pass-bg">
+                    <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>Register_as_an_Affiliate_user_with_Cheque_Payment_Method
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded9.png' src="../embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
               </div>
             </div>
         </div>
@@ -795,14 +927,20 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="90"><span class="badge log pass-bg mr-2">Pass</span>Edit your affiliate information from Cheque payment method to Bank Transfer</div>
+        <div class="node" id="108"><span class="badge log pass-bg mr-2">Pass</span>Edit your affiliate information from Cheque payment method to Bank Transfer</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="91"><span class="badge log pass-bg mr-2">Pass</span>Edit your affiliate information from Cheque payment method to Bank Transfer</div>
+                  <div class="node" id="109"><span class="badge log pass-bg mr-2">Pass</span>Edit your affiliate information from Cheque payment method to Bank Transfer</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -861,6 +999,17 @@ eventsCount: 5,
       <div>
       </div>
                   </div>
+                  <div class="step pass-bg">
+                    <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>Edit_your_affiliate_information_from_Cheque_payment_method_to_Bank_Transfer
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded10.png' src="../embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
               </div>
             </div>
         </div>
@@ -868,14 +1017,20 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="104"><span class="badge log pass-bg mr-2">Pass</span>Edit your account Information</div>
+        <div class="node" id="124"><span class="badge log pass-bg mr-2">Pass</span>Edit your account Information</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>Edit your account Information</div>
+                  <div class="node" id="125"><span class="badge log pass-bg mr-2">Pass</span>Edit your account Information</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -929,6 +1084,17 @@ eventsCount: 5,
       <div>
       </div>
                   </div>
+                  <div class="step pass-bg">
+                    <span>appHooks.AppHooks.screenshotPass(io.cucumber.java.Scenario)</span>
+      <div>Edit_your_account_Information
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded11.png' src="../embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
               </div>
             </div>
         </div>
@@ -956,6 +1122,62 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@RetailFeature</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RetailFeature</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:03:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='91' id='93'>Register as an Affiliate user with Cheque Payment Method</a>
+<div class="">
+<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Register as an Affiliate user with Cheque Payment Method</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:04:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='91' id='109'>Edit your affiliate information from Cheque payment method to Bank Transfer</a>
+<div class="">
+<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your affiliate information from Cheque payment method to Bank Transfer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:04:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='91' id='125'>Edit your account Information</a>
+<div class="">
+<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your account Information</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
 <span class='badge log pass-bg'>4</span>
 </span>
 <p class="name">@LaptopsAndNotebooksFeature</p>
@@ -977,9 +1199,9 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>05:21:40 AM</td>
+<td>01:00:34 AM</td>
 <td>
-<a href="#" class="linked" test-id='38' id='39'>Add and Remove a Mac book from Cart</a>
+<a href="#" class="linked" test-id='46' id='47'>Add and Remove a Mac book from Cart</a>
 <div class="">
 <span class="badge badge-default">Laptop & Notebooks Feature.Add and Remove a Mac book from Cart</span>
 </div>
@@ -987,9 +1209,9 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>05:22:17 AM</td>
+<td>01:01:13 AM</td>
 <td>
-<a href="#" class="linked" test-id='38' id='51'>Product Comparison</a>
+<a href="#" class="linked" test-id='46' id='61'>Product Comparison</a>
 <div class="">
 <span class="badge badge-default">Laptop & Notebooks Feature.Product Comparison</span>
 </div>
@@ -997,9 +1219,9 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>05:23:22 AM</td>
+<td>01:02:21 AM</td>
 <td>
-<a href="#" class="linked" test-id='38' id='61'>Adding an item to Wish list</a>
+<a href="#" class="linked" test-id='46' id='73'>Adding an item to Wish list</a>
 <div class="">
 <span class="badge badge-default">Laptop & Notebooks Feature.Adding an item to Wish list</span>
 </div>
@@ -1007,9 +1229,9 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>05:23:26 AM</td>
+<td>01:02:27 AM</td>
 <td>
-<a href="#" class="linked" test-id='38' id='68'>Validate the price of MacBook Pro is 2000</a>
+<a href="#" class="linked" test-id='46' id='82'>Validate the price of MacBook Pro is 2000</a>
 <div class="">
 <span class="badge badge-default">Laptop & Notebooks Feature.Validate the price of MacBook Pro is 2000</span>
 </div>
@@ -1043,7 +1265,7 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>05:20:13 AM</td>
+<td>00:59:30 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>User verify all items are present in Desktops tab</a>
 <div class="">
@@ -1053,9 +1275,9 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>05:20:18 AM</td>
+<td>00:59:37 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='8'>User add HP LP 3065 from Desktops tab to the cart</a>
+<a href="#" class="linked" test-id='1' id='10'>User add HP LP 3065 from Desktops tab to the cart</a>
 <div class="">
 <span class="badge badge-default">Desktops Feature.User add HP LP 3065 from Desktops tab to the cart</span>
 </div>
@@ -1063,9 +1285,9 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>05:20:57 AM</td>
+<td>00:59:46 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='17'>User add Canon EOS 5D from Desktops tab to the cart</a>
+<a href="#" class="linked" test-id='1' id='21'>User add Canon EOS 5D from Desktops tab to the cart</a>
 <div class="">
 <span class="badge badge-default">Desktops Feature.User add Canon EOS 5D from Desktops tab to the cart</span>
 </div>
@@ -1073,67 +1295,11 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>05:21:04 AM</td>
+<td>00:59:56 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='28'>User add a review to Canon EOS 5D item in Desktops tab</a>
+<a href="#" class="linked" test-id='1' id='34'>User add a review to Canon EOS 5D item in Desktops tab</a>
 <div class="">
 <span class="badge badge-default">Desktops Feature.User add a review to Canon EOS 5D item in Desktops tab</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>3</span>
-</span>
-<p class="name">@RetailFeature</p>
-<p class="duration text-sm">3 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@RetailFeature</h4>
-<span status="pass" class='badge log pass-bg'>3 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>05:24:02 AM</td>
-<td>
-<a href="#" class="linked" test-id='75' id='77'>Register as an Affiliate user with Cheque Payment Method</a>
-<div class="">
-<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Register as an Affiliate user with Cheque Payment Method</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>05:25:37 AM</td>
-<td>
-<a href="#" class="linked" test-id='75' id='91'>Edit your affiliate information from Cheque payment method to Bank Transfer</a>
-<div class="">
-<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your affiliate information from Cheque payment method to Bank Transfer</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>05:25:43 AM</td>
-<td>
-<a href="#" class="linked" test-id='75' id='105'>Edit your account Information</a>
-<div class="">
-<span class="badge badge-default">Retail Page Feature (for this feature you have to have an existing account).Edit your account Information</span>
 </div>
 </td>
 </tr>

@@ -26,14 +26,14 @@ public class RetailPageTest extends Base {
 
 	// take screenshot:
 
-	@After
-	public void tearDown(Scenario scenario) {
-		if (scenario.isFailed()) {
-			String screenshotName = scenario.getName().replaceAll(" ", "_");
-			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(sourcePath, "image/png", screenshotName);
-		} 
-	}
+//	@After
+//	public void tearDown(Scenario scenario) {
+//		if (scenario.isFailed()) {
+//			String screenshotName = scenario.getName().replaceAll(" ", "_");
+//			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+//			scenario.attach(sourcePath, "image/png", screenshotName);
+//		} 
+//	}
 
 	// step definitions
 
@@ -71,7 +71,7 @@ public class RetailPageTest extends Base {
 	public void user_should_see_a_success_message() throws Throwable {
 		retailPageObjects = new RetailPageObjects();
 		retailPageObjects.seeSuccessMessage();
-		tearDown();
+		//tearDown();
 	}
 
 	@Then("^User should see a message ‘Success: Your account has been successfully updated.’$")

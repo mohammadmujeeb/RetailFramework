@@ -1,0 +1,99 @@
+2021/05/20 06:06:53 [main] INFO  RetailPageObjects - Entered email address.
+2021/05/20 06:06:53 [main] INFO  RetailPageObjects - Entered telephone number.
+2021/05/20 06:06:54 [main] INFO  RetailPageObjects - Clicked on 'Continue' button.
+2021/05/20 06:06:54 [main] INFO  RetailPageObjects - Success message was displayed.
+2021/05/20 18:30:52 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 18:30:52 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 18:30:52 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 18:30:53 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 18:30:54 [main] INFO  DesktopsPageObjects - All items were displayed.
+2021/05/20 18:30:57 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 18:30:57 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 18:30:57 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 18:30:58 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 18:30:58 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 18:30:58 [main] INFO  DesktopsPageObjects - HP LP3065 was added to the cart.
+2021/05/20 18:31:30 [main] ERROR DesktopsPageObjects - Index 2 out of bounds for length 0
+2021/05/20 18:31:30 [main] INFO  DesktopsPageObjects - Try # 21: refreshed the webpage.
+2021/05/20 18:31:31 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 18:31:31 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 18:31:31 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 18:31:31 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 18:31:31 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 18:31:31 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 18:31:33 [main] INFO  DesktopsPageObjects - Success message was displayed and matches.
+2021/05/20 18:31:36 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 18:31:36 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 18:31:36 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 18:31:37 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 18:31:37 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/20 18:31:37 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/20 18:31:37 [main] INFO  DesktopsPageObjects - Canon EOS 5D was added to the cart.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - Red color was selected.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - Red color was selected.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - Red color was selected.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - 1 quantities was added to the cart.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 18:31:39 [main] INFO  DesktopsPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 18:31:41 [main] INFO  DesktopsPageObjects - Success message was displayed and matches.
+2021/05/20 18:31:44 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 18:31:44 [main] INFO  DesktopsPageObjects - Clicked on 'Desktops' tab.
+2021/05/20 18:31:44 [main] INFO  DesktopsTest - Clicked on the desk.
+2021/05/20 18:31:45 [main] INFO  DesktopsPageObjects - Clicked on 'Show All Desktops' menu.
+2021/05/20 18:31:46 [main] INFO  DesktopsPageObjects - Canon EOS 5D was selected.
+2021/05/20 18:32:16 [main] INFO  DesktopsPageObjects - Clicked on 'Write a Review' link.
+2021/05/20 18:32:16 [main] INFO  DesktopsPageObjects - Clicked on 'Write a Review' link.
+2021/05/20 18:32:16 [main] INFO  DesktopsPageObjects - Clicked on 'Write a Review' link.
+2021/05/20 18:32:16 [main] INFO  DesktopsPageObjects - Entered reviewer name in 'Your Name' field.
+2021/05/20 18:32:16 [main] INFO  DesktopsPageObjects - Entered review text in 'Your Review' field.
+2021/05/20 18:32:17 [main] INFO  DesktopsPageObjects - 'Rating' radio button was selected.
+2021/05/20 18:32:17 [main] INFO  DesktopsPageObjects - Clicked on 'Continue' button.
+2021/05/20 18:32:17 [main] INFO  DesktopsPageObjects - Thank you message was displayed.
+2021/05/20 18:32:21 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 18:32:21 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.
+2021/05/20 18:32:21 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Show All Laptops & Notebooks' menu.
+2021/05/20 18:32:23 [main] INFO  LaptopsAndNotebooksPageObjects - MacBook was selected.
+2021/05/20 18:32:53 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Add to Cart' button.
+2021/05/20 18:32:53 [main] ERROR LaptopsAndNotebooksPageObjects - Success message was not displayed or is incorrect.
+2021/05/20 18:32:53 [main] ERROR LaptopsAndNotebooksPageObjects - Cart total was not displayed or is incorrect.
+2021/05/20 18:32:53 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on cart option.
+2021/05/20 18:32:53 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on red X button.
+2021/05/20 18:32:53 [main] ERROR LaptopsAndNotebooksPageObjects - Cart total was not displayed or is incorrect.
+2021/05/20 18:32:57 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 18:32:57 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.
+2021/05/20 18:32:57 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Show All Laptops & Notebooks' menu.
+2021/05/20 18:32:57 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Compare this Product' icon.
+2021/05/20 18:32:58 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Compare this Product' icon.
+2021/05/20 18:32:58 [main] ERROR LaptopsAndNotebooksPageObjects - Success message was not displayed or is incorrect.
+2021/05/20 18:32:58 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'product comparison' link.
+2021/05/20 18:33:28 [main] ERROR LaptopsAndNotebooksPageObjects - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='product comparison']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mujeebs-MacBook-Pro.local', ip: 'fe80:0:0:0:7f:79ff:253c:b372%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/p_/bqpx96qs10q...}, goog:chromeOptions: {debuggerAddress: localhost:58696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 507c282f3f29c8e52f587c3e9e73dc9b
+*** Element info: {Using=xpath, value=//a[text()='product comparison']}
+2021/05/20 18:33:28 [main] INFO  LaptopsAndNotebooksPageObjects - Try # 11: refreshed the webpage.
+2021/05/20 18:33:59 [main] ERROR LaptopsAndNotebooksPageObjects - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='product comparison']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mujeebs-MacBook-Pro.local', ip: 'fe80:0:0:0:7f:79ff:253c:b372%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/p_/bqpx96qs10q...}, goog:chromeOptions: {debuggerAddress: localhost:58696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 507c282f3f29c8e52f587c3e9e73dc9b
+*** Element info: {Using=xpath, value=//a[text()='product comparison']}
+2021/05/20 18:33:59 [main] INFO  LaptopsAndNotebooksPageObjects - Try # 21: refreshed the webpage.
+2021/05/20 18:33:59 [main] INFO  LaptopsAndNotebooksPageObjects - 'Product Comparison' chart was displayed.
+2021/05/20 18:34:02 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 18:34:02 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.
+2021/05/20 18:34:03 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Show All Laptops & Notebooks' menu.
+2021/05/20 18:34:03 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Add to Wish List' icon.
+2021/05/20 18:34:03 [main] ERROR LaptopsAndNotebooksPageObjects - Success message was not displayed or is incorrect.
+2021/05/20 18:34:07 [main] INFO  DesktopsTest - Initialized the driver.
+2021/05/20 18:34:07 [main] INFO  LaptopsAndNotebooksPageObjects - Clicked on 'Laptops & Notebooks' tab.

@@ -382,11 +382,11 @@ public class RetailPageObjects extends Base {
 
 	public boolean successMessageMatches() {
 		if (alert.getText().contains("Success: Your account has been successfully updated.")) {
-			tearDown();
+			//tearDown();
 			logger.info("Success message was displayed.");
 			return true;
 		} else {
-			tearDown();
+			//tearDown();
 			logger.error("Success message was not displayed or was incorrect.");
 			return false;
 		}
